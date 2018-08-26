@@ -1,0 +1,8019 @@
+# Move List file revision 1.31.2
+# For use with Pokemon Tabletop Adventures
+# http://s4.zetaboards.com/Pokemon_Tabletop/index/
+
+Move: Attack Order
+Type: Bug
+Frequency: Battle
+AC: 2
+Damage: 3d12+14
+Class: Physical
+Range: 10
+Target: 1 Target
+Effect: Attack Order is a Critical Hit on 18-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Bug Bite
+Type: Bug
+Frequency: EOT
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If the target has a consumable Held Item, Bug Bite destroys the Item and Bug Bite's user may use the Item's effect.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Attention Grabber
+
+&&
+
+Move: Bug Buzz
+Type: Bug
+Frequency: Battle
+AC: 2
+Damage: 3d12+14
+Class: Special
+Range: 3
+Target: No Target, Burst
+Effect: Bug Buzz creates a 3-meter Burst. Bug Buzz lowers the target's Special Defense 1 Combat Stage on 19-20 during Accuracy Check.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Defend Order
+Type: Bug
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Defense 1 Combat Stage and raise the user's Special Defense 1 Combat Stage.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Fury Cutter
+Type: Bug
+Frequency: At-Will
+AC: 3
+Damage: 1d4
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If Fury Cutter is used successfully and consecutively on the same target, use 1d12+6 on the second hit instead, 2d12+12 on the third hit instead, 3d12+18 on the fourth hit instead and 4d12+24 on the fifth hit and any successful hits following the fifth hit instead.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Heal Order
+Type: Bug
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target
+Effect: The user regains HP equal to half of its full HP.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Reflective Appeal
+
+&&
+
+Move: Leech Life
+Type: Bug
+Frequency: EOT
+AC: 2
+Damage: 1d6+1
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: After the target takes damage, the user gains HP equal to half of the damage they dealt to the target.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Megahorn
+Type: Bug
+Frequency: Battle
+AC: 5
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 Target, Push
+Effect: The target is Pushed 3-meters. The target takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Pin Missile
+Type: Bug
+Frequency: EOT
+AC: 4
+Damage: 1d6+1
+Class: Physical
+Range: 10
+Target: 1 Target, Scatter
+Effect: Pin Missile can hit up to 5 times. Once the user misses, they cannot attempt to make another Pin Missile attack on that turn.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Quiver Dance
+Type: Bug
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Special Attack 1 Combat Stage, raise the user's Special Defense 1 Combat Stage and raise the user's Speed 1 Combat Stage.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Rage Powder
+Type: Bug
+Frequency: Center
+AC: None
+Range: 5
+Target: No Target, Column, Intercept
+Effect: Rage Powder creates a Column 1 meter wide. All legal targets may only target the user when using a Move until the user is knocked out or switched out. This Effect lasts for one round of combat.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Scrambler
+
+&&
+
+Move: Signal Beam
+Type: Bug
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Special
+Range: 8
+Target: 1 Target, Column
+Effect: Signal Beam creates a Column 1 meter wide. Signal Beam confuses the target and any Legal Targets on 19-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Incentives
+
+&&
+
+Move: Silver Wind
+Type: Bug
+Frequency: Battle
+AC: 2
+Damage: 2d10+8
+Class: Special
+Range: 15
+Target: 1 Target, Column, Spirit Surge
+Effect: Silver Wind creates a Column that is 2-meters wide. If you rolled 11-20 during Accuracy Check for Silver Wind, the user has each of its stats raised 1 Combat Stage. If you rolled 16-20 on the Accuracy Roll, all allies in the Column also have each of their stats raised 1 Combat Stage and are not damaged by Silver Wind.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Spider Web
+Type: Bug
+Frequency: Center
+AC: None
+Range: 5
+Target: 1 Target, Trap
+Effect: Spider Web cannot miss.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+Special: Grants Threaded
+
+&&
+
+Move: Steamroller
+Type: Bug
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: Steamroller Flinches the target on 15-20 during Accuracy Check. If the target is Small, Steamroller deals an additional 1d10.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: String Shot
+Type: Bug
+Frequency: At-Will
+AC: 3
+Range: 6
+Target: 1 Target, Column
+Effect: String Shot creates a Column 2-meters wide. All Legal Targets within the Column lower their Speed 1 Combat Stage. If a target is hit by String Shot 5 times within 5 rounds of combat, they are Trapped. If a target's Speed Combat Stage has already been lowered 6 times, String Shot Traps them.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+Special: Grants Threaded
+
+&&
+
+Move: Struggle Bug
+Type: Bug
+Frequency: EOT
+AC: 2
+Damage: 1d10+4
+Class: Special
+Range: 3
+Target: 1 Target, Column
+Effect: Struggle Bug creates a Column 1 meter wide. Struggle Bug lowers all Legal Targets Special Attack 1 Combat Stage.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Tail Glow
+Type: Bug
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Special Attack 3 Combat Stages.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Get Ready!
+Special: Grants Glow
+
+&&
+
+Move: Twineedle
+Type: Bug
+Frequency: EOT
+AC: 3
+Damage: 1d8+3
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Twineedle can hit up to 2 times. If Twineedle misses its first target, you may still use it a second time. If you rolled an 18-20 on either Accuracy Check, the target is Poisoned.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: U-Turn
+Type: Bug
+Frequency: Battle
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: If U-Turn successfully hits its target, the user deals damage and then immediately is returned to its Poke Ball in the same turn. A New Pokemon may immediately be sent out.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: X-Scissor
+Type: Bug
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: 
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Assurance
+Type: Dark
+Frequency: Battle
+AC: 2
+Damage: 2d8+6
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If Assurance's target has already been damaged by a Move on the same round Assurance is being used, use 4d12+16 instead for Assurance's Damage Dice Roll.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Beat Up
+Type: Dark
+Frequency: Battle
+AC: 2
+Damage: 1d8+X
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Beat Up can hit up to X times. X is the amount of pokemon on the user's roster including the user, up to a maximum of 6. Once the user misses, they cannot attempt to make another Beat Up attack on that turn. For each target, use a different pokemon's Attack stat from your roster to calculate damage.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Bite
+Type: Dark
+Frequency: At-Will
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Bite Flinches the target on 15-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Crunch
+Type: Dark
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Crunch lowers the target's Defense 1 Combat Stage on 17-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Dark Pulse
+Type: Dark
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Special
+Range: 3
+Target: No Target, Burst
+Effect: Dark Pulse creates a 3-meter Burst. Dark Pulse Flinches all Legal Targets on 17-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Aura
+
+&&
+
+Move: Dark Void
+Type: Dark
+Frequency: Battle
+AC: 4
+Range: 10
+Target: No Target, Burst
+Effect: Dark Void creates a 10-meter Burst. All Legal Targets fall Asleep.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Embargo
+Type: Dark
+Frequency: Battle
+AC: 2
+Range: 6
+Target: 1 Target
+Effect: If the target has a held item, they cannot use it for the remainder of the encounter.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Faint Attack
+Type: Dark
+Frequency: EOT
+AC: None
+Damage: 1d10+10
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Faint Attack cannot miss.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Fake Tears
+Type: Dark
+Frequency: EOT
+AC: 2
+Range: 10
+Target: 1 Target
+Effect: Lower the target's Special Defense 2 Combat Stages.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Flatter
+Type: Dark
+Frequency: EOT
+AC: None
+Range: 8
+Target: 1 Target
+Effect: Flatter Confuses the target and raises the target's Special Attack 1 Combat Stage.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Fling
+Type: Dark
+Frequency: Battle
+AC: 2
+Damage: 2d12+5
+Class: Physical
+Range: 12
+Target: 1 Target
+Effect: The user may throw its held item when using Fling, changing its Damage Dice Roll. If a berry is thrown, the target receives the berry's benefits as if the target, instead of taking any damage, consumed the berry. If an item that causes an effect is thrown, the item's effect is activated. If any other item is thrown the user deals an additional 2d6 during Damage Dice Roll. All berries or other cosumable held items are destroyed when used with Fling. Items that are not destroyed by Fling may be retrieved after an encounter.
+Contest_Type: Tough
+Appeal: 1d4
+Contest_Effect: Catching Up
+
+&&
+
+Move: Foul Play
+Type: Dark
+Frequency: Battle
+AC: 2
+Damage: 4d12+16
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: The target reveals its Attack stat. When calculating damage, add the target's Attack stat instead of the user's Attack stat.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Hone Claws
+Type: Dark
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Attack 1 Combat Stage. For the remainder of Combat, the user's Attack - Melee Moves need -1 on Accuracy Checks to hit.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Knock Off
+Type: Dark
+Frequency: EOT
+AC: 6
+Damage: 1d6+3
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If the target has a held item, the target drops it and the item cannot be picked up or held for the remainder of combat.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Memento
+Type: Dark
+Frequency: Battle
+AC: None
+Range: 15
+Target: 1 Target
+Effect: The user's HP is set to 0. The user does not need a line of sight to the target. Momento cannot be used if the user is at or below 0 HP. Each of the target's stats are lowered 2 Combat Stages.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Big Show
+
+&&
+
+Move: Nasty Plot
+Type: Dark
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Special Attack 2 Combat Stages.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Night Daze
+Type: Dark
+Frequency: Battle
+AC: 2
+Damage: 3d12+14
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: The Target must roll +1 during Accuracy Checks for the remainder of the encounter on 13-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Unsettling
+
+&&
+
+Move: Night Slash
+Type: Dark
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: Night Slash is a Critical Hit on 18-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Payback
+Type: Dark
+Frequency: Battle
+AC: 2
+Damage: 2d8+6
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If the target damaged Payback's user on their last turn, deals 4d12+16 instead for Damage Dice Roll.
+Contest_Type: Cool
+Appeal: 1d4
+Contest_Effect: Special Attention
+
+&&
+
+Move: Punishment
+Type: Dark
+Frequency: Battle
+AC: 2
+Damage: 1d10+15
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Punishment deals an additional 1d10 for each Combat Stage the target has above 0 per raised stat up to an additional 6d10 per stat.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Catching Up
+
+&&
+
+Move: Pursuit
+Type: Dark
+Frequency: EOT
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Interrupt
+Effect: If the foe is fleeing or being switched out, Pursuit may be used as an Interrupt. While being used as an Interrupt, Pursuit may shift the user adjacent to the fleeing foe, up to 25 meters, ignoring Speed Capabilities, and attack them before they escape or are switched out with an additional 3d10+12 added to the Damage Dice Roll.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Quash
+Type: Dark
+Frequency: Battle
+AC: 2
+Range: 10
+Target: 1 Target, Intercept
+Effect: Quash will not affect a Legal Target if it has already acted that round. Quash causes the target to act as if their Speed is 0, meaning their action is last for that turn.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Quick Set
+
+&&
+
+Move: Snarl
+Type: Dark
+Frequency: EOT
+AC: 3
+Damage: 2d10+8
+Class: Special
+Range: 5
+Target: No Target, Burst
+Effect: Snarl creates a 5-meter Burst. All Legal Targets have their Special Attack lowered 1 Combat Stage.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Snatch
+Type: Dark
+Frequency: Battle
+AC: None
+Range: 10
+Target: 1 Target, Intercept
+Effect: If the target is gaining a Combat Stage, you may use Snatch. The user gains the same Combat Stages the target does. Then, the target loses all Combat Stages they gained that turn. If the target is using a No Damage - Self Move, you may use Snatch. You use the No Damage - Self Move and the target does not.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Attention Grabber
+
+&&
+
+Move: Sucker Punch
+Type: Dark
+Frequency: Battle
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target, Interrupt
+Effect: If something is targeting the user with a damaging Attack - Melee Move, you may use Sucker Punch on the offender as an Interrupt.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Quick Set
+
+&&
+
+Move: Switcheroo
+Type: Dark
+Frequency: Battle
+AC: 2
+Range: Melee
+Target: 1 Target
+Effect: The user and the target exchange held items.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Attention Grabber
+
+&&
+
+Move: Taunt
+Type: Dark
+Frequency: EOT
+AC: 3
+Damage: 2d10+8
+Range: 10
+Target: 1 Target
+Effect: Taunt's target can only use Moves that have Damage Dice Rolls for the next 1d4+1 turns.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Thief
+Type: Dark
+Frequency: Battle
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Thief takes the target's held item and attaches it to Thief's user, if the user is not holding anything.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Attention Grabber
+
+&&
+
+Move: Torment
+Type: Dark
+Frequency: Battle
+AC: 2
+Range: 10
+Target: 1 Target
+Effect: For 1d4+2 turns, Torment's target may not use a Move they have already used in their last 2 turns.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Draco Meteor
+Type: Dragon
+Frequency: Center
+AC: 4
+Damage: 6d12+22
+Class: Special
+Range: 15
+Target: Target Area, Blast
+Effect: Draco Meteor creates a 4-meter Blast. Lower the user's Special Attack 2 Combat Stages after damage.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Dragon Claw
+Type: Dragon
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: 
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Dragon Dance
+Type: Dragon
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Attack 1 Combat Stage and raise the user's Speed 1 Combat Stage.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Dragon Pulse
+Type: Dragon
+Frequency: Battle
+AC: 2
+Damage: 3d12+14
+Class: Special
+Range: 3
+Target: No Target, Burst
+Effect: Dragon Pulse creates a 3-meter Burst.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+Special: Grants Aura
+
+&&
+
+Move: Dragon Rage
+Type: Dragon
+Frequency: Battle
+AC: 2
+Damage: 40
+Range: 8
+Target: 1 Target
+Effect: Dragon Rage always deals 40 points of Damage. Do not apply weakness or resistance. Do not apply stats.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Dragon Rush
+Type: Dragon
+Frequency: Battle
+AC: 4
+Damage: 4d12+16
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Push
+Effect: The target is Pushed 3-meters and it takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6. Dragon Rush Flinches the target on 17-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Dragon Tail
+Type: Dragon
+Frequency: Battle
+AC: 3
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target, Push
+Effect: The target is Pushed 40-meters expelling them from the encounter if the terrain allows. They may still rejoin the encounter if they want to. During a trainer battle, the target's owner must recall the Pushed target and replace them.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Big Show
+
+&&
+
+Move: Dragonbreath
+Type: Dragon
+Frequency: EOT
+AC: 2
+Damage: 2d10+8
+Class: Special
+Range: 3
+Target: 1 Target, Column
+Effect: Dragonbreath creates a Column 1 meter wide. Dragonbreath Paralyzes all Legal Targets on 15-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Dual Chop
+Type: Dragon
+Frequency: EOT
+AC: 3
+Damage: 2d8+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Dual Chop can hit up to 2 times. If Dual Chop misses its first target, you may still use it a second time.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Outrage
+Type: Dragon
+Frequency: Center
+AC: 3
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Outrage's user must make another Melee attack for 1d2 more turns. The attack is identical to Outrage except for Outrage's effect. After the first target is declared, Outrage targets the nearest Legal Target for its second or third round of use if the original target is unconscious. If potential targets are an equal distance from the user, you may choose the target. After Outrage's additional use(s) end(s), the user becomes Confused. For Pokemon users, the additional 1d2 are their Trainer's Command Actions, unless the Trainer is unconscious, in which case the Pokemon acts on its own until finished.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Roar of Time
+Type: Dragon
+Frequency: Center
+AC: 4
+Damage: 7d10+28
+Class: Special
+Range: 10
+Target: No Target, Burst, Trap, Exhaust
+Effect: Roar of Time creates a 10-meter Burst. All legal targets are Trapped until they roll a 16-20 saving throw. They may attempt to make this save at any time once per round.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Spacial Rend
+Type: Dragon
+Frequency: Center
+AC: 3
+Damage: 4d12+16
+Class: Special
+Range: 20
+Target: 1 Target
+Effect: Spacial Rend is a Critical Hit on 11-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Twister
+Type: Dragon
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: Twister Flinches the target on 18-20 during Accuracy Check. If the target is airborne as a result of Fly or Sky Drop, Twister can hit them, ignoring Range and deals 2d12+16 for its Damage Dice Roll instead.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Bolt Strike
+Type: Electric
+Frequency: Center
+AC: 5
+Damage: 5d12+22
+Class: Physical
+Range: 20
+Target: 1 Target
+Effect: Bolt Strike Paralyzes the target on 17-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Charge
+Type: Electric
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: If the user performs an Electric Move on their next turn that deals damage, add its Damage Dice Roll an extra time to the damage. Raise the user's Special Defense 1 Combat Stage.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Get Ready!
+Special: Grants Zapper
+
+&&
+
+Move: Charge Beam
+Type: Electric
+Frequency: Battle
+AC: 3
+Damage: 2d8+6
+Class: Special
+Range: 5
+Target: 1 Target, Column, Spirit Surge
+Effect: Charge Beam creates a Column 1 meter wide. Charge Beam raises the user's Special Attack 1 Combat Stage on 11-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Discharge
+Type: Electric
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Special
+Range: 3
+Target: No Target, Burst
+Effect: Discharge creates a 3-meter Burst. Discharge Paralyzes all legal targets on 15-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Zapper
+
+&&
+
+Move: Electro Ball
+Type: Electric
+Frequency: Battle
+AC: 2
+Damage: See Effect
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: The target reveals their current Speed stat, applying Combat Stages. If the user's Speed stat, applying Combat Stages is four times that of the target's, Electro Ball uses 5d10+16 for Damage Dice Roll; if the user three times that of the target's, Electro Ball uses 3d10+14; if the user is twice that of the target, Electro Ball uses 2d10+12; if the user is not twice as fast as the target, Electro Ball uses 1d10+10.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Electroweb
+Type: Electric
+Frequency: EOT
+AC: 3
+Damage: 1d10+10
+Class: Special
+Range: 4
+Target: 1 Target, Column
+Effect: Electroweb creates a Column 2-meters wide. All Legal Targets are lowered 1 Speed Combat Stage.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+Special: Grants Threaded
+
+&&
+
+Move: Fusion Bolt
+Type: Electric
+Frequency: Center
+AC: 2
+Damage: 4d12+22
+Class: Physical
+Range: 10
+Target: 1 Target, Column
+Effect: Fusion Bolt creates a 4-meter Column. If an opponent in this, or the last, round of the encounter used Fusion Flare, Fusion Bolt deals an additional 8d12 in Damage Dice Roll.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Magnet Rise
+Type: Electric
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target
+Effect: Magnet Rise grants the user the Levitate Ability until the end of the Encounter. This does not replace the user's normal Ability. If the user already has Levitate, they now have two instances of Levitate.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+Special: Grants Magnetic
+
+&&
+
+Move: Shock Wave
+Type: Electric
+Frequency: EOT
+AC: None
+Damage: 2d10+8
+Class: Special
+Range: 2
+Target: 1 Target, Column
+Effect: Shock Wave creates a Column 2-meters wide. Shock Wave cannot miss.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Zapper
+
+&&
+
+Move: Spark
+Type: Electric
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: Spark Paralyzes the target on 15-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Thunder
+Type: Electric
+Frequency: Battle
+AC: 6
+Damage: 5d12+18
+Class: Special
+Range: 15
+Target: 1 Target, Blast
+Effect: A 3-meter Blast surrounds the target. Thunder Paralyzes all Legal Targets on 13-20 during Accuracy Check. All Legal Targets within the Blast's radius are Pushed outward, away from the target, 3-meters. If the target is in Sunny Weather, Thunder's Accuracy Check is 11. If the target is in Rainy Weather, Thunder cannot miss. If the target is airborne as a result of Fly or Sky Drop, Thunder cannot miss them
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Thunder Fang
+Type: Electric
+Frequency: EOT
+AC: 3
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Thunder Fang Paralyzes or Flinches on 18-19 during Accuracy Check; flip a coin to determine whether the foe gets Paralyzed or Flinches. On 20 during Accuracy Check, the foe is Paralyzed and Flinches.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Thunder Wave
+Type: Electric
+Frequency: Center
+AC: None
+Range: 6
+Target: 1 Target
+Effect: Thunder Wave cannot miss. Thunder Wave Paralyzes the target.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Thunderbolt
+Type: Electric
+Frequency: Battle
+AC: 2
+Damage: 4d12+16
+Class: Special
+Range: 7
+Target: 1 Target, Column
+Effect: Thunderbolt creates a Column 1 meter wide. Thunderbolt Paralyzes all Legal Targets on 19-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Zapper
+
+&&
+
+Move: Thunderpunch
+Type: Electric
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Thunderpunch Paralyzes the target on 19-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Thundershock
+Type: Electric
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: Thundershock Paralyzes the target on 17-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: No Effect
+Special: Grants Zapper
+
+&&
+
+Move: Volt Switch
+Type: Electric
+Frequency: Battle
+AC: 2
+Damage: 3d8+10
+Class: Special
+Range: 5
+Target: 1 Target
+Effect: If Volt Switch successfully hits its target, the user deals damage and then immediately is returned to its Poke Ball in the same turn. A New Pokemon may immediately be sent out.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Volt Tackle
+Type: Electric
+Frequency: EOT
+AC: 2
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Push, Recoil 1/3
+Effect: The target is pushed back 5-meters. The target takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6. Volt Tackle Paralyzes the target on 19-20 during Accuracy Check. After Volt Tackle deals damage, Recoil.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Wild Charge
+Type: Electric
+Frequency: EOT
+AC: 2
+Damage: 3d12+14
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Recoil 1/4
+Effect: After Wild Charge deals damage, Recoil.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Zap Cannon
+Type: Electric
+Frequency: Battle
+AC: 12
+Damage: 5d12+18
+Class: Special
+Range: 10
+Target: 1 Target, Blast
+Effect: A 2-meter Blast surrounds the target, Paralyzing all Legal Targets in the Blast.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Arm Thrust
+Type: Fighting
+Frequency: EOT
+AC: 4
+Damage: 1d6+1
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Arm Thrust can hit up to 5 times. Once the user misses, they cannot attempt to make another Arm Thrust attack on that turn.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Aura Sphere
+Type: Fighting
+Frequency: Battle
+AC: None
+Damage: 3d12+14
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: Aura Sphere cannot miss.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Aura
+
+&&
+
+Move: Brick Break
+Type: Fighting
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Brick Break can destroy Walls.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Bulk Up
+Type: Fighting
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Attack 1 Combat Stage and raise the user's Defense 1 Combat Stage.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Circle Throw
+Type: Fighting
+Frequency: Center
+AC: 4
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target, Push
+Effect: The target is Pushed 40-meters expelling them from the encounter if the terrain allows. They may still rejoin the encounter if they want to. During a trainer battle, the target's owner must recall the Pushed target and replace them.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Big Show
+
+&&
+
+Move: Close Combat
+Type: Fighting
+Frequency: Battle
+AC: 2
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: The user's Defense is lowered 1 Combat Stage and the user's Special Defense is lowered 1 Combat Stage.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Counter
+Type: Fighting
+Frequency: Battle
+AC: None
+Target: 1 Target, Intercept
+Effect: If the user is being hit by a Move that consults Attack for damage, you may use Counter. If the user survives the hit, the target is dealt damage equal to twice the amount of damage the user received. Do not apply weakness, resistance or immunity. Do not apply stats.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Cross Chop
+Type: Fighting
+Frequency: Battle
+AC: 4
+Damage: 4d12+16
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Push
+Effect: Cross Chop is a Critical Hit on 16-20 during Accuracy Check. Cross Chop Pushes the target 1-meter. On Critical Hit, the target is Pushed 5-meters and the target takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Detect
+Type: Fighting
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target, Intercept
+Effect: If the user is hit by a Move, instead you are not hit by the Move. You do not take any damage nor are you affected by any of the Move's effects.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Inversed Appeal
+Special: Grants Aura
+
+&&
+
+Move: Double Kick
+Type: Fighting
+Frequency: EOT
+AC: 3
+Damage: 1d10+4
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Double Kick can hit up to 2 times. If Double Kick misses its first target, you may still use it a second time.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Drain Punch
+Type: Fighting
+Frequency: Battle
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: After the target takes damage, the user gains HP equal to half of the damage they dealt to the target.
+Contest_Type: Beauty
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Dynamicpunch
+Type: Fighting
+Frequency: Battle
+AC: 12
+Damage: 4d12+16
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Dynamicpunch Confuses the target.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Final Gambit
+Type: Fighting
+Frequency: Center
+AC: 2
+Range: Melee
+Target: 1 Target
+Effect: Final Gambit lowers the user to 0 HP, and deals 1 point of damage to the foe for every point of health lost this way. Final Gambit does not cause items to activate.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Big Show
+
+&&
+
+Move: Focus Blast
+Type: Fighting
+Frequency: Battle
+AC: 6
+Damage: 5d12+18
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: Focus Blast lower the target's Special Defense 1 Combat Stage on 18-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Aura
+
+&&
+
+Move: Focus Punch
+Type: Fighting
+Frequency: EOT
+AC: 2
+Damage: 7d10+28
+Class: Physical
+Range: Melee
+Target: 1 Target, Push
+Effect: Once you declare the use of Focus Punch the user's turn ends. If you are not hit by a damaging Move until your next turn you may use Focus Punch's damage and effects. The target is Pushed 10-meters and it takes an additional 2d12 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d12. If the user is hit by a damaging Move before it's next turn, it may not use a Move on that turn.
+Contest_Type: Tough
+Appeal: 1d4
+Contest_Effect: Special Attention
+
+&&
+
+Move: Force Palm
+Type: Fighting
+Frequency: EOT
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Force Palm Paralyzes the target on 18-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Ender
+Special: Grants Aura
+
+&&
+
+Move: Hammer Arm
+Type: Fighting
+Frequency: Battle
+AC: 3
+Damage: 4d12+16
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: The user lowers their Speed 1 Combat Stage.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Slow Set
+
+&&
+
+Move: Hi Jump Kick
+Type: Fighting
+Frequency: Battle
+AC: 3
+Damage: 5d12+22
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: If Hi Jump Kick misses, roll 4d10 and subtract the result from the user's HP. Do not apply weakness, resistance or stats.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Jump Kick
+Type: Fighting
+Frequency: EOT
+AC: 3
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: If Jump Kick misses, roll 2d10 and subtract the result from the user's HP. Do not apply weakness, resistance or stats.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Karate Chop
+Type: Fighting
+Frequency: At-Will
+AC: 2
+Damage: 2d8+6
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Karate Chop is a Critical Hit on 17-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Low Kick
+Type: Fighting
+Frequency: Battle
+AC: 2
+Damage: See Effect
+Class: Physical
+Range: Melee
+Target: 1 Target, Weight Class
+Effect: If the target is in Weight Class 1, use 1d10 for Damage Dice Roll. If the target is in Weight Class 2, use 1d10+5. If the target is in Weight Class 3, use 1d10+10. If the target is in Weight Class 4, use 2d10+12. If the target is in Weight Class 5, use 3d10+14. If the target is in Weight Class 6, use 5d10+16 for damage.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Low Sweep
+Type: Fighting
+Frequency: EOT
+AC: 2
+Damage: 1d10+10
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Lowers the target's Speed 1 Combat Stage.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Mach Punch
+Type: Fighting
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Interrupt
+Effect: If a foe wants to declare a Move, you may instead use Mach Punch on their turn before they can use their Move.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Quick Set
+
+&&
+
+Move: Quick Guard
+Type: Fighting
+Frequency: Center
+AC: None
+Range: Self
+Target: 1 Target, Intercept
+Effect: Quick Guard prevents the user and allies from being targeted by Moves used as an Interrupt or Intercept for one round. For that round Interrupt or Intercept attacks can only target you, or other allies using Quick Guard.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Revenge
+Type: Fighting
+Frequency: Battle
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If the target damaged Revenge's user on their last turn, deals 4d12+16 instead during Damage Dice Roll.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Reversal
+Type: Fighting
+Frequency: EOT
+AC: 2
+Damage: See Effect
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If the user has more than 70% of its total HP, use 1d10+5 for Damage Dice Roll. If the user has more than 36% of its total HP, use 2d10+10. If the user has more than 21% of its total HP, use 3d10+10. If the user has more than 6% of its total HP, use 4d10+10. If the user has 1-5% of its total HP, use 5d10+20.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Rock Smash
+Type: Fighting
+Frequency: EOT
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Rock Smash lowers the target's Defense 1 Combat Stage on 17-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Rolling Kick
+Type: Fighting
+Frequency: EOT
+AC: 4
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: Rolling Kick Flinches the target on 15-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Sacred Sword
+Type: Fighting
+Frequency: Battle
+AC: 2
+Damage: 3d12+14
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: Sacred Sword's Accuracy Check may not be modified.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Secret Sword
+Type: Fighting
+Frequency: Battle
+AC: 2
+Damage: 3d12+14
+Class: Special
+Range: 15
+Target: 1 Target
+Effect: When calculating damage, the target must use their Defense against Secret Sword.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Seismic Toss
+Type: Fighting
+Frequency: Center
+AC: 2
+Range: Melee
+Target: 1 Target
+Effect: The target loses HP equal to the level of Seismic Toss' user. Do not apply weakness or resistance. Do not apply stats.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Sky Uppercut
+Type: Fighting
+Frequency: EOT
+AC: 3
+Damage: 3d12+14
+Class: Physical
+Range: Melee
+Target: 1 Target, Push
+Effect: The target is Pushed 2-meters. If the target is airborne, Sky Uppercut deals an additional 2d10. If the target is airborne as a result of Fly or Sky Drop, Sky Uppercut cannot miss as long as you are in a space adjacent to the airborne target.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Storm Throw
+Type: Fighting
+Frequency: Battle
+AC: 2
+Damage: 20
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Storm Throw is a Critical Hit.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Submission
+Type: Fighting
+Frequency: At-Will
+AC: 6
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target, Recoil 1/4
+Effect: After Submission deals damage, Recoil.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Superpower
+Type: Fighting
+Frequency: Battle
+AC: 2
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Push
+Effect: Superpower lowers the user's Attack 1 Comabt Stage and Defense by 1 Combat Stage. The target is Pushed 6-meters and it takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Triple Kick
+Type: Fighting
+Frequency: Battle
+AC: 3
+Damage: 1d6+1
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Triple Kick can hit up to 3 times. If Triple Kick misses its first or second target, you may still use it a second and third time. For the third use of Triple Kick, if you successfully hit the same target for the first two uses of Triple Kick use 3d12+8 for Triple Kick's Damage Dice Roll.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Vacuum Wave
+Type: Fighting
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Special
+Range: 6
+Target: 1 Target, Interrupt
+Effect: If a foe wants to declare a Move, you may instead use Vacuum Wave on their turn before they can use their Move.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Quick Set
+Special: Grants Aura
+
+&&
+
+Move: Vital Throw
+Type: Fighting
+Frequency: Battle
+AC: None
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target, Push
+Effect: Vital Throw may only be used if the user was targeted by a Move on a foe's last turn while the foe was adjacent. Vital Throw can only target that foe. Vital Throw cannot miss. The target is Pushed 5-meters and it takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Slow Set
+
+&&
+
+Move: Wake-Up Slap
+Type: Fighting
+Frequency: Battle
+AC: 2
+Damage: 2d8+6
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If the target is Asleep, Wake-Up Slap does an additional 5d10 for Damage Dice Roll and cures the target of Sleep.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Blast Burn
+Type: Fire
+Frequency: Center
+AC: 4
+Damage: 7d10+28
+Class: Special
+Range: 15
+Target: Target Area, Blast, Exhaust
+Effect: Blast Burn creates a 3-meter Blast. On Miss, Blast Burn deals the user's Special Attack instead to all possible targets.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Blaze Kick
+Type: Fire
+Frequency: Battle
+AC: 4
+Damage: 3d12+14
+Class: Physical
+Range: Melee
+Target: 1 Target, Push
+Effect: Blaze Kick Pushes the target 2-meters. Blaze Kick Burns the target on 19-20 during Accuracy Check. Blaze Kick is a Critical Hit on 16-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Blue Flare
+Type: Fire
+Frequency: Center
+AC: 5
+Damage: 5d12+22
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: Blue Flare Burns the target on 17-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Ember
+Type: Fire
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Special
+Range: 8
+Target: 1 Target
+Effect: Ember Burns the target on 18-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 3d4
+Contest_Effect: No Effect
+Special: Grants Firestarter
+
+&&
+
+Move: Eruption
+Type: Fire
+Frequency: Center
+AC: 4
+Damage: 7d10+28
+Class: Special
+Range: 10
+Target: No Target, Burst
+Effect: Eruption creates a 10-meter Burst. Eruption may not be performed unless the user has at least 90% of its HP.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Fiery Dance
+Type: Fire
+Frequency: Battle
+AC: 2
+Damage: 3d10+12
+Class: Special
+Range: 4
+Target: 1 Target, Spirit Surge
+Effect: Fiery Dance raises the user's Special Attack by 1 Combat Stage on 11-20 on Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Fire Blast
+Type: Fire
+Frequency: Battle
+AC: 6
+Damage: 5d12+18
+Class: Special
+Range: 10
+Target: 1 Target, Blast
+Effect: Fire Blast creates a 2-meter Blast. Fire Blast burns all Legal Targets on 19-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Firestarter
+
+&&
+
+Move: Fire Fang
+Type: Fire
+Frequency: EOT
+AC: 3
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Fire Fang Burns or Flinches on 18-19 during Accuracy Check; flip a coin to determine whether the foe gets Burned or Flinches. On 20 during Accuracy Check, the foe is Burned and Flinches.
+Contest_Type: Beauty
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Fire Pledge
+Type: Fire
+Frequency: EOT
+AC: 2
+Damage: 2d8+6
+Class: Special
+Range: 6
+Target: 1 Target, Pledge
+Effect: If used on the same turn as Water Pledge, all secondary effects of Moves are activated at a -3 during the Accuracy Check for 1d4+1 turns. If used on the same turn as Grass Pledge, all foes within 20 meters of the user lose 1/8th of their max HP at the end of each round of combat for 1d4+1 turns.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Fire Punch
+Type: Fire
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Fire Punch Burns the target on 19-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Fire Spin
+Type: Fire
+Frequency: EOT
+AC: 4
+Damage: 1d12+6
+Class: Special
+Range: 10
+Target: 1 Target, Trap
+Effect: Fire Spin Traps the target for 1d4+1 turns. At the beginning of the target's turn, if the target is Trapped, roll 1d12 and the target loses that much HP. Do not apply weakness or resistance to the HP lost. Do not apply stats to the HP lost. Fire Spin may not trap more then one target at a time.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Torrential Appeal
+Special: Grants Firestarter
+
+&&
+
+Move: Flame Burst
+Type: Fire
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Special
+Range: 6
+Target: No Target, Blast
+Effect: Flame Burst creates a 4-meter Blast. All Legal Targets, not including the central taget, hit in the Blast lose 1/16th of their max HP instead of taking the Damage Dice Roll for damage.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Firestarter
+
+&&
+
+Move: Flame Charge
+Type: Fire
+Frequency: EOT
+AC: 2
+Damage: 2d8+6
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Raise the user's Speed 1 Combat Stage.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Flame Wheel
+Type: Fire
+Frequency: At-Will
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: Flame Wheel Burns the target on 19-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Flamethrower
+Type: Fire
+Frequency: Battle
+AC: 2
+Damage: 4d12+16
+Class: Special
+Range: 4
+Target: 1 Target, Column
+Effect: Flamethrower creates a Column 1 meter wide. Flamethrower Burns the target on 19-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Firestarter
+
+&&
+
+Move: Flare Blitz
+Type: Fire
+Frequency: EOT
+AC: 2
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Push, Recoil 1/3
+Effect: The target is pushed back 5-meters. The target takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6. Flare Blitz Burns the target on 19-20 during Accuracy Check. After Flare Blitz deals damage, Recoil.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Fusion Flare
+Type: Fire
+Frequency: Center
+AC: 2
+Damage: 4d12+16
+Class: Special
+Range: 10
+Target: 1 Target, Column
+Effect: Fusion Flare creates a 4-meter Column. If an opponent in this, or the last, round of the encounter used Fusion Bolt, Fusion Flare deals an additional 8d12 in Damage Dice Roll.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Heat Crash
+Type: Fire
+Frequency: Battle
+AC: 2
+Damage: See Effect
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Weight Class
+Effect: If the user is in the same Weight Class as the target, use 1d10 for Damage Dice Roll; if the user is one Weight Class higher than the target, use 1d10+10; if the user is two Weight Classes higher than the target, use 2d12+12; if three classes, 3d10+14; if four classes, 5d10+16.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Heat Wave
+Type: Fire
+Frequency: Battle
+AC: 4
+Damage: 4d12+16
+Class: Special
+Range: 3
+Target: No Target, Burst
+Effect: Heat Wave creates a 3-meter burst. Heat Wave Burns all Legal Targets on 18-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Incinerate
+Type: Fire
+Frequency: EOT
+AC: 2
+Damage: 1d10+4
+Class: Special
+Range: 6
+Target: 1 Target
+Effect: If the target is holding a Berry, the Berry is destroyed, without its ability activating.
+Contest_Type: Beauty
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Inferno
+Type: Fire
+Frequency: Center
+AC: 11
+Damage: 4d12+16
+Class: Special
+Range: 2
+Target: No Target, Blast
+Effect: Inferno creates a 2-meter Blast. Inferno Burns all Legal Targets.
+Contest_Type: Beauty
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Lava Plume
+Type: Fire
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Special
+Range: 6
+Target: 1 Target
+Effect: Lava Plume Burns the target on 16-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Magma Storm
+Type: Fire
+Frequency: Center
+AC: 7
+Damage: 5d12+18
+Class: Special
+Range: 8
+Target: 1 Target, Trap
+Effect: Magma Storm Traps the target for 1d4+1 turns. At the beginning of the target's turn, if the target is Trapped, roll 2d20 and the target loses that much HP. Do not apply weakness or resistance to the HP lost. Do not apply stats to the HP lost. Magma Storm may not trap more then one target at a time.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Overheat
+Type: Fire
+Frequency: Center
+AC: 4
+Damage: 6d12+22
+Class: Special
+Range: 2
+Target: No Target, Burst
+Effect: Overheat creates a 2-meter Burst. Lower the user's Special Attack 2 Combat Stages after damage.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Sacred Fire
+Type: Fire
+Frequency: Center
+AC: 3
+Damage: 4d12+16
+Class: Physical
+Range: 7
+Target: 1 Target, Burst
+Effect: Sacred Fire creates a 7-meter Burst. Sacred Fire Burns all Legal Targets in the Burst on 11-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Searing Shot
+Type: Fire
+Frequency: Center
+AC: 2
+Damage: 4d12+16
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: Searing Shot Burns the Target on 15-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Sunny Day
+Type: Fire
+Frequency: Battle
+AC: None
+Class: None
+Range: Field
+Target: Target Area, Weather
+Effect: For 1d4+1 rounds, the area is considered Sunny. While Sunny, Fire-Type attacks deal 1.5x damage. Water-Type attacks deal 1/2 the damage they normally would.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: V-Create
+Type: Fire
+Frequency: Center
+AC: 5
+Damage: 8d10+36
+Class: Physical
+Range: Melee
+Target: No Target, Burst
+Effect: V-Create creates a 10-meter Burst. Lower the user's Defense 1 Combat Stage, lower the user' Special Defense 1 Combat Stage and lower the user's Speed 1 Combat Stage.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Will-O-Wisp
+Type: Fire
+Frequency: Battle
+AC: 4
+Range: 10
+Target: 1 Target
+Effect: The target is Burned.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Round starter
+
+&&
+
+Move: Acrobatics
+Type: Flying
+Frequency: Battle
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If the user is not holding an item, Acrobatics deals 4d12+16 instead during Damage Dice Roll.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Aerial Ace
+Type: Flying
+Frequency: EOT
+AC: None
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: Aerial Ace cannot miss.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Aeroblast
+Type: Flying
+Frequency: Center
+AC: 3
+Damage: 4d12+16
+Class: Special
+Range: 20
+Target: 1 Target, Column
+Effect: Aeroblast creates a Column 2-meters wide. Aeroblast is a Critical Hit on 11-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Air Cutter
+Type: Flying
+Frequency: At-Will
+AC: 2
+Damage: 2d10+8
+Class: Special
+Range: 8
+Target: 1 Target
+Effect: Air Cutter is a Critical Hit on 18-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Air Slash
+Type: Flying
+Frequency: EOT
+AC: 3
+Damage: 3d10+12
+Class: Special
+Range: 8
+Target: 1 Target
+Effect: Air Slash Flinches the target on 15-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Bounce
+Type: Flying
+Frequency: Battle
+AC: 4
+Damage: 3d12+14
+Class: Physical
+Range: Melee
+Target: 1 Target, Burst
+Effect: Once you declare the use of Bounce, the user is moved up to 10-meters into the air and then the user's turn ends. On your next turn, shift while in the air, lower your height back to the ground, and then use Bounce's damage and the rest of its Effect. Bounce creates a Burst equal half the user's Weight Class. Bounce Paralyzes all Legal Targets on 17-20 during Accuracy Check.
+Contest_Type: Cute
+Appeal: 1d4
+Contest_Effect: Special Attention
+Special: Grants Jump +1
+
+&&
+
+Move: Brave Bird
+Type: Flying
+Frequency: EOT
+AC: 2
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Push, Recoil 1/3
+Effect: The target is pushed back 5-meters. The target takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6. After Brave Bird deals damage, Recoil.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Chatter
+Type: Flying
+Frequency: EOT
+AC: 2
+Damage: 2d10+8
+Class: Special
+Range: 4
+Target: 1 Target, Column
+Effect: Chatter creates a Column 1 meter wide. Chatter Confuses all Legal Targets.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Catching Up
+
+&&
+
+Move: Defog
+Type: Flying
+Frequency: EOT
+AC: None
+Class: None
+Range: Field
+Target: Target Area, Weather
+Effect: For 1d4+1 rounds, the area is considered Clear. While Clear, all hindering terrain is no longer hindering terrain and all bonuses or penalties to Accuracy Checks are ignored. All Walls, Coats and Hazards are destroyed.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Drill Peck
+Type: Flying
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: 
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Featherdance
+Type: Flying
+Frequency: EOT
+AC: 2
+Range: 10
+Target: 1 Target, Blast
+Effect: Feather Dance creates a 1-meter Blast. All Legal Targets in the Blast have their Attack lowered 2 Combat Stages.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Fly
+Type: Flying
+Frequency: EOT
+AC: 3
+Damage: 3d12+14
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Set Up
+Effect: Once you declare the use of Fly, the user is shifted 25-meters into the air and then the user's turn ends. On your next turn, shift while in the air, lower the user back to the target's level on the battlefield, then use Fly's damage.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Special Attention
+Special: Grants Sky +3
+
+&&
+
+Move: Gust
+Type: Flying
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: If the target is airborne as a result of Fly or Sky Drop, Gust can hit them, ignoring Range and deals 2d12+16 for its Damage Dice Roll instead.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+Special: Grants Guster
+
+&&
+
+Move: Hurricane
+Type: Flying
+Frequency: Battle
+AC: 6
+Damage: 5d12+18
+Class: Special
+Range: 8
+Target: 1 Target, Blast
+Effect: Hurricane creates a 4-meter Blast. Hurricane Confuses all Legal Targets on 13-20 during Accuracy Check. All Legal Targets within the Blast's radius are Pushed outward, away from the target, 3-meters. If the target is in Sunny Weather, Hurricane's Accuracy Check is 11. If the target is in Rainy Weather, Hurricane cannot miss. If the target is airborne as a result of Fly or Sky Drop, Hurricane cannot miss them.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Mirror Move
+Type: Flying
+Frequency: Center
+AC: None
+Damage: See Effect
+Range: 15
+Target: 1 Target
+Effect: Use the Move the target has used on their last turn. You may choose new targets for the Move. Mirror Move cannot miss.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Peck
+Type: Flying
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: 
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Pluck
+Type: Flying
+Frequency: EOT
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If the target is holding a Berry, Pluck deals an additional 2d10 during Damage Dice Roll and Pluck destroys the Berry then Pluck's user uses the Berry's effect.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Attention Grabber
+
+&&
+
+Move: Roost
+Type: Flying
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target
+Effect: The user regains HP equal to half of its full HP. The user looses any resistances or immunities to Ground-type Moves until the end of their next turn.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Sky Attack
+Type: Flying
+Frequency: Battle
+AC: 4
+Damage: 6d12+22
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: Once you declare the use of Sky Attack, the user is moved 10-meters into the air and then the user's turn ends. On your next turn, shift while in the air, lower your height back to the target and then use Sky Attack's damage. Sky Attack Flinches the target on 17-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 1d4
+Contest_Effect: Special Attention
+
+&&
+
+Move: Sky Drop
+Type: Flying
+Frequency: Center
+AC: 3
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target, Set Up
+Effect: Once you declare the use of Sky Drop, the user and target are moved 25-meters into the air, the Target is Trapped and then the user's turn ends. On your next turn, shift while in the air, lower both the user and the target's heights back to the ground, then use Sky Drop's damage and the target is no longer Trapped. This move does not damage Flying type pokemon. If used without following up with the rest of Sky Drop's actions on the turn following its use, Lower the user and the target back down, do not use Sky Drop's damage and the target is no longer Trapped.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Special Attention
+
+&&
+
+Move: Tailwind
+Type: Flying
+Frequency: At-Will
+AC: None
+Class: None
+Range: Field
+Target: Target Area, Column
+Effect: Tailwind creates a Column 5-meters wide. For 1d6+1 turns, Tailwind's user and all of the user's allies in the Column have their Speed raised 1 Combat Stage. When the user or the user's allies leave the Column or when the Column dissapears, their Speed is lowered 1 Combat Stage. Whenever you make a new Tailwind Cloumn, the last one the user made disappears.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Quick Set
+Special: Grants Guster
+
+&&
+
+Move: Wing Attack
+Type: Flying
+Frequency: At-Will
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: 
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Astonish
+Type: Ghost
+Frequency: EOT
+AC: 2
+Damage: 1d10+4
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Astonish Flinches the target on 18-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Confuse Ray
+Type: Ghost
+Frequency: Center
+AC: None
+Range: 10
+Target: 1 Target, Column
+Effect: Confuse Ray creates a Column 1 meter wide. Confuse Ray cannot miss. All targets are Confused.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Unsettling
+
+&&
+
+Move: Curse
+Type: Ghost
+Frequency: EOT
+AC: None Effect - Self Effect: No Target The user's Speed is lowered 1 Combat Stage. The user's Attack is raised 1 Combat Stage and the user's Defense is raised 1 Combat Stage.
+Range: 4
+Target: 1 Target
+Effect: The user loses 1/2 of their full HP and the target Pokemon is Cursed. A Cursed Pokemon loses 1/8th of their full HP at the beginning of each of their turns. Do not apply weakness, resistance or stats to the lost HP. If: User is Not Ghost Type EOT - None Effect - Self Effect: No Target The user's Speed is lowered 1 Combat Stage. The user's Attack is raised 1 Combat Stage and the user's Defense is raised 1 Combat Stage.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Destiny Bond
+Type: Ghost
+Frequency: Center
+AC: None
+Range: 20
+Target: 1 Target, Intercept
+Effect: When the user faints after taking damage from a Move, you may use Destiny Bond as an Intercept to target the Pokemon who lowered the user to 0 HP or less. Roll 1d20, on a roll of 6 or better the target is set to 0 HP.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Big Show
+
+&&
+
+Move: Grudge
+Type: Ghost
+Frequency: Center
+AC: None
+Range: 20
+Target: 1 Target, Intercept
+Effect: When the user faints, you may use Grudge as an Intercept. The Move that caused the user to drop to 0 HP or less has its Frequency changed to Center for 1 hour.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Unsettling
+
+&&
+
+Move: Hex
+Type: Ghost
+Frequency: Battle
+AC: 2
+Damage: 2d8+6
+Class: Special
+Range: 8
+Target: 1 Target
+Effect: If the target has a status affliction, Hex deals 4d12+16 instead during Damage Dice Roll.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Lick
+Type: Ghost
+Frequency: At-Will
+AC: 2
+Damage: 1d6+3
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Lick Paralyzes the target on 15-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Night Shade
+Type: Ghost
+Frequency: Center
+AC: 2
+Range: 8
+Target: 1 Target
+Effect: The target loses HP equal to the level of Night Shade's user. Do not apply weakness or resistance. Do not apply stats.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Nightmare
+Type: Ghost
+Frequency: EOT
+AC: 2
+Range: Melee
+Target: 1 Target
+Effect: Nightmare can only hit Legal Targets that are Asleep. Nightmare gives a special affliction, Bad Sleep. Bad Sleep makes a target lose 1/4 of its full HP per turn while it is Bad Sleeping. When the target wakes up, they are cured of Bad Sleep.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Ominous Wind
+Type: Ghost
+Frequency: Battle
+AC: 2
+Damage: 2d10+8
+Class: Special
+Range: 10
+Target: 1 Target, Column, Spirit Surge
+Effect: Ominous Wind creates a Column that is 2-meters wide. If you rolled 11-20 during Accuracy Check for Ominous Wind, the user has each of its stats raised 1 Combat Stage. If you rolled 16-20 on the Accuracy Roll, all allies in the Column also have each of their stats raised 1 Combat Stage and are not damaged by Ominous Wind.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Shadow Ball
+Type: Ghost
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: Shadow Ball lowers the foe's Special Defense 1 Combat Stage on 17-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Shadow Claw
+Type: Ghost
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: Shadow Claw is a Critical Hit on 18-20 during Accuracy Check.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Shadow Force
+Type: Ghost
+Frequency: Center
+AC: 2
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 Target, Set Up
+Effect: Once you declare the use of Shadow Force, the user is removed from the field and the user's turn ends. On the next turn, Shadow Force's user appears adjacent to any target, ignoring Speed Capabilties, and then uses Shadow Force's damage.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Shadow Punch
+Type: Ghost
+Frequency: EOT
+AC: None
+Damage: 2d10+8
+Class: Physical
+Range: 6
+Target: 1 Target
+Effect: Shadow Punch cannot miss.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Shadow Sneak
+Type: Ghost
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass, Interrupt
+Effect: If a foe wants to declare a Move, you may instead use Shadow Sneak on their turn before they can use their Move.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Quick Set
+
+&&
+
+Move: Spite
+Type: Ghost
+Frequency: Battle
+AC: 2
+Range: 15
+Target: 1 Target
+Effect: Spite lowers the target's last move's Frequency for the remainder of the encounter. EOT Frequency Moves are changed into Battle Frequency. At-Will Frequency Moves are changed into EOT Frequency. Spite may not target the same target's Move more then once per encounter.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Absorb
+Type: Grass
+Frequency: At-Will
+AC: 2
+Damage: 1d6+3
+Class: Special
+Range: Melee
+Target: 1 Target
+Effect: After the target takes damage, the user gains HP equal to half of the damage they dealt to the target.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Aromatherapy
+Type: Grass
+Frequency: Battle
+AC: 2
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: The target has 1 status effect of their choice removed. Aromatherapy cannot miss.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Reflective Appeal
+
+&&
+
+Move: Bullet Seed
+Type: Grass
+Frequency: At-Will
+AC: 4
+Damage: 1d10+4
+Class: Physical
+Range: 8
+Target: 1 Target, Scatter
+Effect: Bullet Seed can hit up to 5 times. Once the user misses, they cannot attempt to make another Bullet Seed attack on that turn.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Cotton Guard
+Type: Grass
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Defense 3 Combat Stages.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Cotton Spore
+Type: Grass
+Frequency: EOT
+AC: 2
+Range: 10
+Target: 1 Target, Blast
+Effect: Cotton Spore creates a 2-meter Blast. All Legal Targets have their Speed lowered 2 Combat Stages.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Quick Set
+
+&&
+
+Move: Energy Ball
+Type: Grass
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Special
+Range: 8
+Target: 1 Target
+Effect: Energy Ball lowers the foe's Special Defense 1 Combat Stage on 17-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Frenzy Plant
+Type: Grass
+Frequency: Center
+AC: 4
+Damage: 7d10+28
+Class: Special
+Range: 15
+Target: Target Area, Blast, Exhaust
+Effect: Frenzy Plant creates a 3-meter Blast. On Miss, Frenzy Plant deals the user's Special Attack instead to all possible targets.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Giga Drain
+Type: Grass
+Frequency: Battle
+AC: 2
+Damage: 3d10+12
+Class: Special
+Range: 4
+Target: 1 Target
+Effect: After the target takes damage, the user gains HP equal to half of the damage they dealt to the target.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Grass Knot
+Type: Grass
+Frequency: Battle
+AC: 2
+Damage: See Effect
+Class: Special
+Range: 5
+Target: 1 Target, Weight Class
+Effect: If the target is in Weight Class 1, use 1d10 for Damage Dice Roll. If the target is in Weight Class 2, use 1d10+5. If the target is in Weight Class 3, use 1d10+10. If the target is in Weight Class 4, use 2d10+12. If the target is in Weight Class 5, use 3d10+14. If the target is in Weight Class 6, use 5d10+16 for damage.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Grass Pledge
+Type: Grass
+Frequency: EOT
+AC: 2
+Damage: 2d8+6
+Class: Special
+Range: 6
+Target: 1 Target, Pledge
+Effect: If used on the same turn as Water Pledge, all foes are treated as if at -2 Speed Combat Stages for 1d4+1 turns, if any foe has additional Speed Combat Stages, apply them as usual. If used on the same turn as Fire Pledge, all foes within 20 meters of the user lose 1/8th of their max HP at the end of each round of combat for 1d4+1 turns.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Grasswhistle
+Type: Grass
+Frequency: EOT
+AC: 11
+Range: 6
+Target: No Target, Burst
+Effect: Grasswhistle creates a 5-meter Burst. All Legal Targets fall Asleep.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Horn Leech
+Type: Grass
+Frequency: Battle
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: After the target takes damage, the user gains HP equal to half of the damage they dealt to the target.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Ingrain
+Type: Grass
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target, Coat
+Effect: Ingrain is a Coat with the following abilities: The user cannot be forced to switch out or flee but they can still be willingly switched out. At the beginning of each of the user's turns, the user gains 1/16th of its full HP.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Torrential Appeal
+Special: Grants Sprouter
+
+&&
+
+Move: Leaf Blade
+Type: Grass
+Frequency: Battle
+AC: 2
+Damage: 3d12+14
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: Leaf Blade is a Critical Hit on 18-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Leaf Storm
+Type: Grass
+Frequency: Center
+AC: 4
+Damage: 6d12+22
+Class: Special
+Range: 3
+Target: Target Area, Column
+Effect: Leaf Storm creates a 2-meter Column. Lower the user's Special Attack 2 Combat Stages after damage.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Leaf Tornado
+Type: Grass
+Frequency: Battle
+AC: 4
+Damage: 3d8+10
+Class: Special
+Range: 6
+Target: No Target, Burst
+Effect: Leaf Tornado creates a 2-meter Burst. On 15-20 during Accuracy Check, all Legal Targets must roll 1 higher on Accuracy Checks for the remainder of the combat.
+Contest_Type: Beauty
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Leech Seed
+Type: Grass
+Frequency: Center
+AC: 4
+Range: 6
+Target: 1 Target
+Effect: At the beginning of each of the target's turns, Leech Seed's target loses 1/8th of their full HP. Do not apply weakness or resistance to the HP lost. Do not apply stats to the HP lost. Leech Seed's user then gains HP equal to the amount the target lost. Leech Seed lasts until the target faints or is returned to a Poke Ball. Leech Seed cannot hit a Grass type Pokemon.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Magical Leaf
+Type: Grass
+Frequency: EOT
+AC: None
+Damage: 2d10+8
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: Magical Leaf cannot miss.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Mega Drain
+Type: Grass
+Frequency: EOT
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: After the target takes damage, the user gains HP equal to half of the damage they dealt to the target.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Needle Arm
+Type: Grass
+Frequency: EOT
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Needle Arm Flinches the target on 15-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Petal Dance
+Type: Grass
+Frequency: Center
+AC: 3
+Damage: 5d12+18
+Class: Special
+Range: 3
+Target: No Target, Burst
+Effect: Petal Dance's user must make another Ranged attack for 1d2 more turns. The attack is identical to Petal Dance except for Petal Dance's effect. Petal Dance creates a 3-meter Burst, but only on the first round of its use. After the first use is declared, Petal Dance targets the nearest Legal Target for its second or third round of use if the original target is unconscious. If potential targets are an equal distance from the user, you may choose the target. After Petal Dance's additional use(s) end(s), the user becomes Confused. For Pokemon users, the additional 1d2 are their Trainer's Command Actions, unless the Trainer is unconscious, in which case the Pokemon acts on its own until finished.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Power Whip
+Type: Grass
+Frequency: Battle
+AC: 5
+Damage: 5d12+18
+Class: Physical
+Range: 10
+Target: 1 Target
+Effect: 
+Contest_Type: Beauty
+Appeal: 3d4
+Contest_Effect: No Effect
+Special: Grants Threaded
+
+&&
+
+Move: Razor Leaf
+Type: Grass
+Frequency: At-Will
+AC: 4
+Damage: 2d10+8
+Class: Physical
+Range: 10
+Target: 1 Target
+Effect: Razor Leaf is a Critical Hit on 18-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Seed Bomb
+Type: Grass
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: 8
+Target: 1 Target, Blast
+Effect: Seed Bomb creates a 2-meter Blast.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Seed Flare
+Type: Grass
+Frequency: Center
+AC: 5
+Damage: 5d12+18
+Class: Special
+Range: 15
+Target: 1 Target, Blast
+Effect: Seed Flare creates a 3-meter Blast. All Legal Targets have their Special Defense lowered 1 Combat Stage.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Sleep Powder
+Type: Grass
+Frequency: Center
+AC: 6
+Range: 6
+Target: 1 Target, Blast
+Effect: Sleep Powder creates a 1-meter Blast. All Legal Targets fall Asleep.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Solarbeam
+Type: Grass
+Frequency: Battle
+AC: 2
+Damage: 5d12+18
+Class: Special
+Range: 10
+Target: 1 Target, Column, Set Up
+Effect: Once you declare the use of Solarbeam, the user's turn ends. On its next turn, the user may shift and use Solarbeam's damage. If the user is in Sunny Weather, Solarbeam uses its damage on the turn you declare its use. If the user is in Rainy or Sand Storming Weather Solarbeam's user must end their turn immediately at the start of their second turn after declaring Solarbeam's use, only getting to use Solarbeam's damage on the third turn. If the user is in Hailing Weather, Solarbeam's damage is 3d10. Solarbeam creates a Column 1 meter wide.
+Contest_Type: Cool
+Appeal: 1d4
+Contest_Effect: Special Attention
+
+&&
+
+Move: Spore
+Type: Grass
+Frequency: Center
+AC: None
+Range: 6
+Target: 1 Target
+Effect: The target falls Asleep.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Stun Spore
+Type: Grass
+Frequency: At-Will
+AC: 11
+Range: 6
+Target: 1 Target, Blast
+Effect: Stun Spore creates a 1-meter Blast. Stun Spore paralyzes al Legal Targets.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Synthesis
+Type: Grass
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target
+Effect: The user regains HP equal to half of its full HP. If it is Sunny, the user gains 2/3 of its full HP. If it is Rainy, Sand Storming or Hailing the user gains 1/4 of their full HP.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Reflective Appeal
+Special: Grants Sprouter
+
+&&
+
+Move: Vine Whip
+Type: Grass
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: 10
+Target: 1 Target
+Effect: 
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+Special: Grants Threaded
+
+&&
+
+Move: Wood Hammer
+Type: Grass
+Frequency: EOT
+AC: 2
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Push, Recoil 1/3
+Effect: The target is pushed back 5-meters. The target takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6. After Wood Hammer deals damage, Recoil.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Worry Seed
+Type: Grass
+Frequency: Battle
+AC: 2
+Range: 8
+Target: 1 Target
+Effect: The target's Ability is replaced with Insomnia. If the target has multiple Abilities, Worry Seed only replaces one.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Bone Club
+Type: Ground
+Frequency: EOT
+AC: 5
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Bone Club Flinches the target on 18-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Bone Rush
+Type: Ground
+Frequency: EOT
+AC: 4
+Damage: 1d10+4
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Bone Rush can hit up to 5 times. Once the user misses, they cannot attempt to make another Bone Rush attack on that turn.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Bonemerang
+Type: Ground
+Frequency: EOT
+AC: 3
+Damage: 2d12+8
+Class: Physical
+Range: 8
+Target: 1 Target, Scatter
+Effect: Bonemerang can hit up to 2 times. If Bonemerang misses its first target, you may still use it a second time.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Bulldoze
+Type: Ground
+Frequency: EOT
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: 3
+Target: No Target, Burst
+Effect: Bulldoze creates a 3-meter Burst. All Legal Targets are lowered 1 Speed Combat Stage.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Dig
+Type: Ground
+Frequency: Battle
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Set Up
+Effect: Once you declare the use of Dig, the user is moved underground and their turn ends. On the next turn, Dig's user may shift, using their Overland or Burrow Speed then uses Dig's damage. While underground, Dig's user may not be the target of Moves.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Special Attention
+Special: Grants Burrow +3
+
+&&
+
+Move: Drill Run
+Type: Ground
+Frequency: EOT
+AC: 3
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Drill Run is a Critical Hit on 18-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Earth Power
+Type: Ground
+Frequency: Battle
+AC: 2
+Damage: 3d12+14
+Class: Special
+Range: 6
+Target: 1 Target, Blast
+Effect: Earth Power creates a 3-meter Blast. Earth Power lowers the Special Defense of all Legal Targets 1 Combat Stage on 16-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Earthquake
+Type: Ground
+Frequency: Battle
+AC: 2
+Damage: 4d12+16
+Class: Physical
+Range: 5
+Target: No Target, Burst
+Effect: Earthquake creates a 5-meter Burst. Earthquake can hit targets using the Move Dig.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Ender
+Special: Grants Groundshaper
+
+&&
+
+Move: Fissure
+Type: Ground
+Frequency: Center
+AC: 15
+Range: 5
+Target: 1 Target, Column
+Effect: Fissure creates a Column that is 3-meters wide. All Legal Targets have their HP set to 0. Fissure can hit targets using the Move Dig.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Big Show
+
+&&
+
+Move: Magnitude
+Type: Ground
+Frequency: EOT
+AC: 2
+Damage: See Effect
+Class: Physical
+Range: 2
+Target: No Target, Burst
+Effect: Magnitude creates a 2-meter Burst. Roll 1d6. On a result of 1, use 1d4 for damage. On a result of 2, use 1d8 for damage. On a result of 3, use 2d8 for damage. On a result of 4, use 2d10 for damage. On a result of 5, use 3d10 for damage. On a result of 6, use 4d10 for damage. Magnitude can hit targets using the Move Dig.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Ender
+Special: Grants Groundshaper
+
+&&
+
+Move: Mud Bomb
+Type: Ground
+Frequency: EOT
+AC: 4
+Damage: 3d8+10
+Class: Special
+Range: 6
+Target: 1 Target, Blast
+Effect: Mud Bomb creates a 1-meter Blast. All Legal Targets must roll +1 during Accuracy Checks for the remainder of the encounter on 17-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Mud Shot
+Type: Ground
+Frequency: EOT
+AC: 3
+Damage: 2d10+8
+Class: Special
+Range: 3
+Target: 1 Target, Column
+Effect: Mud Shot creates a Column 1 meter wide. All Legal Targets have their Speed lowered 1 Combat Stage.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Slow Set
+
+&&
+
+Move: Mud Sport
+Type: Ground
+Frequency: EOT
+AC: None
+Range: 8
+Target: 1 Target, Coat
+Effect: Mud Sport makes a Coat that resists Self.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Mud-Slap
+Type: Ground
+Frequency: EOT
+AC: 2
+Damage: 1d6+3
+Class: Special
+Range: 2
+Target: 1 Target, Column
+Effect: Mud-Slap creates a Column 1-meter wide. All Legal Targets must roll +1 during Accuracy Checks for the remainder of the encounter.
+Contest_Type: Cute
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Sand Tomb
+Type: Ground
+Frequency: EOT
+AC: 4
+Damage: 1d12+6
+Class: Physical
+Range: 6
+Target: 1 Target, Trap
+Effect: Sand Tomb Traps the target for 1d4+1 turns. At the beginning of the target's turn, if the target is Trapped, roll 1d20 and the target loses that much HP. Do not apply weakness or resistance to the HP lost. Do not apply stats to the HP lost. Sand Tomb may not trap more then one target at a time.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Sand-Attack
+Type: Ground
+Frequency: EOT
+AC: 2
+Range: 2
+Target: 1 Target, Column
+Effect: Sand-Attack creates a Column 1 meter wide. All Legal Targets must roll +1 during Accuracy Checks for the remainder of the encounter.
+Contest_Type: Cute
+Appeal: 1d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Spikes
+Type: Ground
+Frequency: At-Will
+AC: None
+Range: 6
+Target: No Target, Hazard
+Effect: Set 10 square meters of Spikes, all 10 meters must be adjacent with at least one other space of Spikes next to each other. Spikes cause all foes to lose 1/8th of their full HP when moving onto or over the occupied spaces with an Overland Capability. If there are 2 Layers of Spikes on the same space, the foes lose 1/6th of their full HP. If there are 3 or more Layers of Spikes on the same space, the foes lose 1/4th of their full HP.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Aurora Beam
+Type: Ice
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Special
+Range: 6
+Target: 1 Target, Column
+Effect: Aurora Beam creates a Column 1 meter wide. Aurora Beam lowers the target's Attack 1 Combat Stage on 18-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Freezer
+
+&&
+
+Move: Avalanche
+Type: Ice
+Frequency: Battle
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: 5
+Target: 1 Target, Column
+Effect: Avalanche creates a Column 2-meters wide. If a target damaged Avalanche's user on their last turn, deal an additional 2d10 during Damage Dice Roll.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Blizzard
+Type: Ice
+Frequency: Battle
+AC: 7
+Damage: 5d12+18
+Class: Special
+Range: 6
+Target: 1 Target, Column
+Effect: Blizzard creates a Column that is 3-meters wide. Blizzard Freezes all legal targets on 16-20 during accuracy Check. If the target is in Hailing Weather, Blizzard cannot miss.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Freezer
+
+&&
+
+Move: Freeze Shock
+Type: Ice
+Frequency: Center
+AC: 4
+Damage: 6d12+22
+Class: Physical
+Range: 10
+Target: 1 Target, Column, Push
+Effect: Freeze Shock creates a Column 2-meters wide. All Legal Targets are pushed 10-meters and take an additional 1d6 if Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6. Freeze Shock paralyzes all Legal Targets on 15-20 on Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Frost Breath
+Type: Ice
+Frequency: Battle
+AC: 4
+Damage: 20
+Class: Special
+Range: 2
+Target: 1 Target
+Effect: Frost Breath is a Critical Hit.
+Contest_Type: Beauty
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Glaciate
+Type: Ice
+Frequency: Battle
+AC: 3
+Damage: 3d8+10
+Class: Special
+Range: 5
+Target: 1 Target
+Effect: Glaciate creates a 5-meter Burst. All Legal Targets have their Speed lowered 1 Combat Stage. On a roll of 11-20 during Accuracy Check, all Legal Targets on the ground are Trapped and cannot shift for 2 rounds.
+Contest_Type: Beauty
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Hail
+Type: Ice
+Frequency: Battle
+AC: None
+Class: None
+Range: Field
+Target: Target Area, Weather
+Effect: For 1d4+1 rounds, the area is considered Hailing. At the beginning of each round, all non-Ice Type Pokemon lose 1/16th of their full HP. Ice Type Pokemon are treated as if their Defense is raised 2 Combat Stages while Hailing.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Haze
+Type: Ice
+Frequency: At-Will
+AC: None
+Class: None
+Range: Field
+Target: Target Area, Weather
+Effect: For 3 rounds, the area is considered Hazy. Hazy does not replace other Weather Statuses. In Hazy Weather, all Combat Stages get set to 0.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Ice Ball
+Type: Ice
+Frequency: EOT
+AC: 4
+Damage: 1d10+4
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: The user must use Ice Ball until it misses, or fails to be able to shift enough to hit a target for their next 4 turns. On the second turn, Ice Ball uses 2d10+8 for its Damage Dice Roll. On the third turn, Ice Ball uses 2d10+12. On the fourth turn, Ice Ball uses 3d10+16. On the fifth and final turn, Ice Ball uses 4d10+20.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Ice Beam
+Type: Ice
+Frequency: Battle
+AC: 2
+Damage: 4d12+16
+Class: Special
+Range: 8
+Target: 1 Target, Column
+Effect: Ice Beam creates a Column 1 meter wide. Ice Beam Freezes all Legal Targets on 19-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Freezer
+
+&&
+
+Move: Ice Burn
+Type: Ice
+Frequency: Center
+AC: 4
+Damage: 6d12+22
+Class: Special
+Range: 10
+Target: 1 Target, Column
+Effect: Ice Burn creates a Column 2-meters wide. All Legal Targets are pushed 10-meters and take an additional 1d6 if Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6. Ice Burn Burns all Legal Targets on 15-20 on Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Ice Fang
+Type: Ice
+Frequency: EOT
+AC: 3
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Ice Fang Freezes or Flinches on 18-19 during Accuracy Check; flip a coin to determine whether the foe gets Frozen or Flinches. On 20 during Accuracy Check, the foe is Frozen and Flinches.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Ice Punch
+Type: Ice
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Ice Punch Freezes the target on 19-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Ice Shard
+Type: Ice
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: 10
+Target: 1 Target, Interrupt
+Effect: If a foe wants to declare a Move, you may instead use Ice Shard on their turn before they can use their Move.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Quick Set
+
+&&
+
+Move: Icicle Crash
+Type: Ice
+Frequency: Battle
+AC: 4
+Damage: 3d12+14
+Class: Physical
+Range: 6
+Target: 1 Target
+Effect: Icicle Crash Flinches the target on 15-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Icicle Spear
+Type: Ice
+Frequency: EOT
+AC: 4
+Damage: 1d10+4
+Class: Physical
+Range: 6
+Target: 1 Target, Scatter
+Effect: Icicle Spear can hit up to 5 times. Once the user misses, they cannot attempt to make another Icicle Spear attack on that turn.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Icy Wind
+Type: Ice
+Frequency: EOT
+AC: 3
+Damage: 2d10+8
+Class: Special
+Range: 6
+Target: 1 Target, Column
+Effect: Icy Wind creates a Column 1-meter wide. All Legal Targets have their Speed lowered 1 Combat Stage.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Slow Set
+
+&&
+
+Move: Mist
+Type: Ice
+Frequency: At-Will
+AC: None
+Range: 5
+Target: 1 Target, Coat
+Effect: The target with Mist's Coat may not have their Combat Stages lowered. Mist can Target Self.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Powder Snow
+Type: Ice
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Special
+Range: 3
+Target: 1 Target, Column
+Effect: Powder Snow creates a 1-meter wide. Powder Snow Freezes all Legal Targets on 19-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 3d4
+Contest_Effect: No Effect
+Special: Grants Freezer
+
+&&
+
+Move: Sheer Cold
+Type: Ice
+Frequency: Center
+AC: 16
+Range: 4
+Target: 1 Target, Blast
+Effect: Sheer Cold creates 3-meter Blast. All Legal Targets have their HP set to 0.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Big Show
+Special: Grants Freezer
+
+&&
+
+Move: Acupressure
+Type: Normal
+Frequency: EOT
+AC: 2
+Range: Self
+Target: 1 Target or Target Self
+Effect: Roll 1d6. On a result of 1, raise the target's Attack 2 Combat Stages. On a result of 2, raise the target's Defense 2 Combat Stages. On a result of 3, raise the target's Special Attack 2 Combat Stages. On a result of 4, raise the target's Special Defense 2 Combat Stages. On a result of 5, raise the target's Speed 2 Combat Stages. On a result of 6, the target needs -2 to hit during Accuracy Checks.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: After You
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: 1 Target
+Effect: The target goes first during the next round of combat, ignoring Speed stats. They may not be Interrupted by any Moves that round.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Slow Set
+
+&&
+
+Move: Assist
+Type: Normal
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target
+Effect: Randomly select another pokemon on the user's roster and then randomly select a Move that Pokemon knows. Assist's user uses that Move immediatley.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Scrambler
+
+&&
+
+Move: Attract
+Type: Normal
+Frequency: EOT
+AC: 2
+Range: 10
+Target: 1 Target
+Effect: Attract Infatuates the target. Attract may not affect something that is the same gender as the user or something that is genderless.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Barrage
+Type: Normal
+Frequency: EOT
+AC: 4
+Damage: 1d6+3
+Class: Physical
+Range: 8
+Target: 1 Target, Scatter
+Effect: Barrage can hit up to 5 times. Once the user misses, they cannot attempt to make another Barrage attack on that turn.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Baton Pass
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: Self
+Target: No Target
+Effect: The user is replaced with another pokemon from their trainer's roster. All Combat Stages and Coats on Baton Pass' user are transferred to the replacement. Baton Pass can ignore Traps, but the replacement is then Trapped.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Belly Drum
+Type: Normal
+Frequency: Battle
+AC: None
+Range: Self
+Target: 1 Target
+Effect: Belly Drum's user loses HP equal to half of its full HP. Do not appliy the user's stats to the HP lost. Belly Drum sets the user's Attack to +6 Combat Stages.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Bestow
+Type: Normal
+Frequency: Battle
+AC: 2
+Range: 4
+Target: 1 Target
+Effect: The user gives its held item to the target, unless the target is already holding an item.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Attention Grabber
+
+&&
+
+Move: Bide
+Type: Normal
+Frequency: Battle
+AC: None
+Range: 15
+Target: 1 Target, Intercept
+Effect: You may use Bide as an Intercept upon being targeted by a Move. After declaring the use of Bide, the user ends their turn. At the start of their next turn, end their turn. On the turn after that, add up all of the damage the user has taken in the past 2 turns, call that total X. Bide's Target loses HP equal to twice the value of X. Do not apply weakness or resistance to the HP lost as a result of Bide. Do not apply stats to the HP lost as a result of Bide. Bide cannot miss.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Bind
+Type: Normal
+Frequency: EOT
+AC: 4
+Damage: 1d6+3
+Class: Physical
+Range: Melee
+Target: 1 Target, Trap
+Effect: Bind Traps the target and the user for 1d4+1 turns. At the beginning of the target's turn, if the target is Trapped, roll 1d12 and the target loses that much HP. Do not apply weakness or resistance to the HP lost. Do not apply stats to the HP lost. Bind may not trap more then one target at a time unless the User is Huge or Gigantic.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Block
+Type: Normal
+Frequency: Battle
+AC: 2
+Range: Melee
+Target: 1 Target, Trap
+Effect: Both the user and the target are Trapped.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Body Slam
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: 3d12+14
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Body Slam Paralyzes the target on 15-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Camouflage
+Type: Normal
+Frequency: EOT
+AC: None
+Range: Self
+Target: 1 Target
+Effect: The user changes their Type to match the field. Forests and grassy areas change the user into Grass-Type. Watery areas change the user into Water-Type. Caves and Mountains could change the user into Rock-Type or Ground-Type. An icy terrain would turn the user into Ice-Type. A building may change the user into Steel-Type or Normal-Type. Weather affects what Type the user becomes. Use common sense, if you are having difficult determining what type the user should become, consult the GM.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+Special: Grants Blender
+
+&&
+
+Move: Captivate
+Type: Normal
+Frequency: EOT
+AC: 2
+Range: 10
+Target: 1 Target
+Effect: Captivate lowers the target's Special Attack 2 Combat Stages. Captivate may not affect something that is the same gender as the user or something that is genderless.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Charm
+Type: Normal
+Frequency: EOT
+AC: 2
+Range: 10
+Target: 1 Target
+Effect: Charm lowers the target's Attack 2 Combat Stages.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Chip Away
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Ignore any changes in the target's Defense or Special Defense when calculating damage.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Comet Punch
+Type: Normal
+Frequency: EOT
+AC: 4
+Damage: 1d6+3
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Comet Punch can hit up to 5 times. Once the user misses, they cannot attempt to make another Comet Punch attack on that turn. When adding stats only add 1/2 Attack.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Constrict
+Type: Normal
+Frequency: At-Will
+AC: 2
+Damage: 1d6+1
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Constrict lowers the target's Speed 1 Combat Stage.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Conversion
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: Self
+Target: No Target
+Effect: The user becomes the elemental Type of their choice as long as they have a Move that is the same elemental Type until the end of the encounter. Replace all other Types.
+Contest_Type: Beauty
+Appeal: 1d4
+Contest_Effect: Catching Up
+
+&&
+
+Move: Conversion2
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: Self
+Target: 1 Target
+Effect: The user becomes the elemental Type of their choice as long as the Type resists the elemental Type of the Move it last took damage from until the end of the encounter. Replace all other Types.
+Contest_Type: Beauty
+Appeal: 1d4
+Contest_Effect: Catching Up
+
+&&
+
+Move: Copycat
+Type: Normal
+Frequency: Center
+AC: None
+Range: 15
+Target: 1 Target
+Effect: Use the Move the target has used on their last turn. You may choose new targets for the Move. Copycat cannot miss.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Attention Grabber
+
+&&
+
+Move: Covet
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Covet takes the target's held item and attaches it to Covet's user, if the user is not holding anything.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Attention Grabber
+
+&&
+
+Move: Crush Claw
+Type: Normal
+Frequency: EOT
+AC: 3
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: Crush Claw lowers the target's Defense 1 Combat Stage on 11-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Crush Grip
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: For every 10% the target is below their full HP, Crush Grip's Damage Dice Roll is reduced by 1d12 to a minimum of 20.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Cut
+Type: Normal
+Frequency: At-Will
+AC: 3
+Damage: 2d8+6
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: 
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Defense Curl
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: Self
+Target: No Target
+Effect: Defense Curl raises the user's Defense 1 Combat Stage. If the user uses the Move Ice Ball or Rollout later in the encounter without having been switched out, each hit deals an additional 1d10 during Damage Dice Roll.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Disable
+Type: Normal
+Frequency: EOT
+AC: 2
+Range: 10
+Target: 1 Target
+Effect: Name a Move. For the remainder of the encounter, the target may not use that Move; the Move is considered Disabled. A target may not have more then 1 Move Disabled, if a new move is Disabled, the last Disabled Move is no longer Disabled.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Dizzy Punch
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target, Push
+Effect: The target is Pushed 2-meters. Dizzy Punch Confuses the target on 17-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Double Hit
+Type: Normal
+Frequency: EOT
+AC: 3
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Double Hit can hit up to 2 times. If Double Hit misses its first target, you may still use it a second time.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Double Team
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target
+Effect: The user makes three copies of themselves and places them into the encounter adjacent to the user. The user must place some sign under the token of the original copy to mark it as the original. If a copy is hit by a damaging Move, it is destroyed. If the original is hit by a damaging Move, all copies are destroyed. Any copy can perform a Move but the user is still only allowed one Move per turn. All copies may shift each turn. When the user and its copies are targeted by a Move, foes must roll +2 during Accuracy Check to hit for the remainder of the encounter. When a copy disappears, the user loses 1d6 HP. Do not apply weakness or resistance to HP lost. Do not apply stats to HP lost.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Double-Edge
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Push, Recoil 1/3
+Effect: The target is pushed back 5-meters. The target takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6. After Double-Edge deals damage, Recoil.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Big Show
+
+&&
+
+Move: Doubleslap
+Type: Normal
+Frequency: EOT
+AC: 4
+Damage: 1d6+1
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Doubleslap can hit up to 5 times. Once the user misses, they cannot attempt to make another Doubleslap attack on that turn.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Echoed Voice
+Type: Normal
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: For every consecutive use of Echoed Voice, add 1d20 to its Damage Dice Roll to a maximum of 5d20. Consecutive uses of Echoed Voice can be used across different Pokemon. If Echoed Voice is not used at least once every turn, the consecutive uses of Echoed Voice reset.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Egg Bomb
+Type: Normal
+Frequency: Battle
+AC: 6
+Damage: 4d12+16
+Class: Physical
+Range: 8
+Target: 1 Target, Blast
+Effect: Egg Bomb creates a 2-meter Blast.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Encore
+Type: Normal
+Frequency: Battle
+AC: 2
+Range: 10
+Target: 1 Target
+Effect: The target must use the same Move that it most recently used for the next 1d4+2 turns. If the Frequency of the move doesn't allow the Move to be used so often, the target instead cannot use a Move.
+Contest_Type: Cute
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Endeavor
+Type: Normal
+Frequency: Center
+AC: 2
+Range: Melee
+Target: 1 Target, Dash
+Effect: The target's HP is set to equal the user's HP if the user's current HP is less then the target's current HP. If the user's HP is equal to or greater than the target's HP nothing happens.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Endure
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target, Intercept
+Effect: If the user is being hit by a damaging Move, you may use Endure. If the Move would bring Endure's user down to 0 HP or less, Endure's user instead is set to 1 HP.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Entrainment
+Type: Normal
+Frequency: Battle
+AC: 2
+Range: 10
+Target: 1 Target
+Effect: Entrainment changes one of the target's abilities into one Ability that the user has for 1d4+1 turns.
+Contest_Type: Cute
+Appeal: 1d4
+Contest_Effect: Catching Up
+
+&&
+
+Move: Explosion
+Type: Normal
+Frequency: Center
+AC: 2
+Damage: 6d20+55
+Class: Physical
+Range: 7
+Target: No Target, Burst
+Effect: Explosion creates a 7-meter Burst. The user's HP is set to -50% of their full HP. If the user is above Loyalty 1, their Loyalty is lowered at least 1 stage.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Big Show
+
+&&
+
+Move: Extremespeed
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Interrupt
+Effect: If a foe wants to declare a Move, you may instead use Extremespeed on their turn before they can use their Move. Extremespeed may not be Interrupted. After the user finishes the damage step of their turn, they may shift again.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Quick Set
+
+&&
+
+Move: Facade
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If the user is afflicted with a Status effect, use an additional 4d12 during Damage Dice Roll. If the user is afflicted with a Status effect, Facade's Frequency drops (EOT to Battle or At-Will to EOT).
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Fake Out
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Interrupt
+Effect: You may only use Fake Out at the beginning of an encounter, as an Interrupt. Fake Out Flinches the target.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: False Swipe
+Type: Normal
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: If False Swipe would lower the target to 0 HP or less, the target is instead set to 1 HP unless the target was already below 0 HP.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Feint
+Type: Normal
+Frequency: Center
+AC: 2
+Damage: 1d10+4
+Class: Physical
+Range: Melee
+Target: 1 Target, Interrupt
+Effect: Feint may only Interrupt Intercepts. If used as an Interrupt, the target flips a coin, if they win the flip, they may retain the use of their Intercept for the encounter as if they did not use it during the encounter. If the target loses the flip, they use up their Intercept. Feint ignores all Intercept effects, dealing damage as if the Intercept was not used.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Inverse Appeal
+
+&&
+
+Move: Flail
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: See Effect
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If the user has more than 70% of its total HP, use 1d10+5 for Damage Dice Roll. If the user has more than 36% of its total HP, use 2d10+10. If the user has more than 21% of its total HP, use 3d10+10. If the user has more than 6% of its total HP, use 4d10+10. If the user has 1-5% of its total HP, use 5d10+20
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Flash
+Type: Normal
+Frequency: EOT
+AC: 2
+Range: 4
+Target: No Target, Burst
+Effect: Flash creates a 4-meter Burst. Flash makes all Legal Targets need +1 to hit during Accuracy Checks.
+Contest_Type: Beauty
+Appeal: 1d4
+Contest_Effect: Unsettling
+Special: Grants Glow
+
+&&
+
+Move: Focus Energy
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: Self
+Target: No Target, Coat
+Effect: The user's Moves are Critical Hits on 17-20. If a Move already has an extended Critical Hit range, Focus energy extends that range by -3. Focus Energy's effect cannot be used more then once per encounter unless the user somehow loses the benefit of Focus Energy.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Follow Me
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target, Intercept
+Effect: All Foes may only target the user when using a Move until the user is knocked out or switched out. This Effect lasts for one round of combat.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Scrambler
+
+&&
+
+Move: Foresight
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: Self
+Target: No Target
+Effect: The user's Normal-Type and Fighting-Type Moves can now hit and affect Ghost-Type targets. Foresight's user is unaffected by the effects of Moves which make them have to roll higher during Accuracy Checks to hit. Targets may not use their Speed stat to modify Accuracy Checks. Foresight's user can identify the real target using Double Team.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Frustration
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: 4d12+16
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: The user may only use Frustration if its Loyalty is level 0 or 1.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Fury Attack
+Type: Normal
+Frequency: EOT
+AC: 4
+Damage: 1d6+3
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Fury Attack can hit up to 5 times. Once the user misses, they cannot attempt to make another Fury Attack attack on that turn.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Fury Swipes
+Type: Normal
+Frequency: EOT
+AC: 4
+Damage: 1d6+3
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Fury Swipes can hit up to 5 times. Once the user misses, they cannot attempt to make another Fury Swipes attack on that turn.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Giga Impact
+Type: Normal
+Frequency: Center
+AC: 4
+Damage: 7d10+28
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Burst, Exhaust
+Effect: Giga Impact creates a 3-meter Burst around the target. On Miss, Giga Impact deals the user's Attack instead to all possible targets.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Glare
+Type: Normal
+Frequency: At-Will
+AC: 3
+Range: 5
+Target: 1 Target
+Effect: Glare Paralyzes the target.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Growl
+Type: Normal
+Frequency: At-Will
+AC: 2
+Range: 5
+Target: No Target, Burst
+Effect: Growl creates a 5-meter Burst. Growl lowers all Legal Targets Attack 1 Combat Stage.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Growth
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Attack 1 Combat Stage and raise the user's Special Attack 1 Combat Stage. If it is Sunny, double the amount of Combat Stages gained.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Get Ready!
+Special: Grants Inflatable
+
+&&
+
+Move: Guillotine
+Type: Normal
+Frequency: Center
+AC: 15
+Range: Melee
+Target: 1 Target
+Effect: The target is set to 0 HP.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Big Show
+
+&&
+
+Move: Harden
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Defense 1 Combat Stage.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Headbutt
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: Headbutt Flinches the target on 15-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Head Charge
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 Target, Push, Recoil 1/4
+Effect: The target is Pushed back 5-meters. The target takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6. After Head Charge deals damage, Recoil.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Heal Bell
+Type: Normal
+Frequency: Center
+AC: None
+Range: 3
+Target: No Target, Burst
+Effect: Heal Bell creates a 3-meter Burst. All targets are cured of any Status ailments. Heal Bell cannot miss.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Reflective Appeal
+
+&&
+
+Move: Helping Hand
+Type: Normal
+Frequency: EOT
+AC: None
+Range: Melee
+Target: 1 Target
+Effect: The ally targeted with Helping Hand will have their next Move deal an additional 1d20 if the Move has a Damage Dice Roll. Helping Hand cannot miss.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Hidden Power
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: See Effect
+Class: Special
+Range: 3
+Target: No Target, Burst
+Effect: Hidden Power makes a 3-meter Burst. When a pokemon first obtains the Move Hidden Power, roll 1d4 and 1d20. For the 1d4 roll, a result of 1 makes Hidden Power's Damage Dice Roll 1d12+6; a result of 2 makes the Damage Dice Roll 2d8+6; a result of 3 makes the Damage Dice Roll 2d10+8; a result of 4 makes the Damage Dice Roll 3d8+10. For the 1d20 roll, Hidden Power's Elemental Type will be changed from Normal to Bug on a result of 1; Dark on 2; Dragon on 3; Electric on 4; Fighting on 5; Fire on 6; Flying on 7; Ghost on 8; Grass on 9; Ground on 10; Ice on 11; Normal on 12; Poison on 13; Psychic on 14; Rock on 15; Steel on 16; Water on 17; and on a result of 18-20, reroll the d20. Those become the Hidden Power's permanent stats for that user.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Catching Up
+
+&&
+
+Move: Horn Attack
+Type: Normal
+Frequency: At-Will
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: 
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Horn Drill
+Type: Normal
+Frequency: Center
+AC: 15
+Range: Melee
+Target: 1 Target
+Effect: The target is set to 0 HP.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Big Show
+
+&&
+
+Move: Howl
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Attack 1 Combat stage.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Hyper Beam
+Type: Normal
+Frequency: Center
+AC: 4
+Damage: 7d10+28
+Class: Special
+Range: 15
+Target: 1 Target, Column, Exhaust
+Effect: Hyper Beam creates a Column 1 meter wide. On Miss, Hyper Beam deals the user's Special Attack instead to all possible targets.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Hyper Fang
+Type: Normal
+Frequency: EOT
+AC: 4
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Hyper Fang Flinches the target on 19-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Hyper Voice
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 3d12+14
+Class: Special
+Range: 4
+Target: 1 Target, Column, Push
+Effect: Hyper Voice creates a Column 4-meters wide. All Legal Targets are Pushed back 3-meters.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Judgement
+Type: Normal
+Frequency: Center
+AC: 2
+Damage: 4d12+16
+Class: Special
+Range: 25
+Target: 1 Target, Blast
+Effect: Judgement makes a 5-meter Blast. Judgment's Type can be whatever Elemental Type the user wants it to be.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Scrambler
+
+&&
+
+Move: Last Resort
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 6d12+22
+Class: Special
+Range: Melee
+Target: 1 Target, Dash
+Effect: Last Resort can only be used after the user has performed 6 other different Moves.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Leer
+Type: Normal
+Frequency: At-Will
+AC: 2
+Range: 5
+Target: 1 Target
+Effect: The target's Defense is lowered 1 Combat Stage.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Lock-On
+Type: Normal
+Frequency: Center
+AC: None
+Range: 25
+Target: 1 Target
+Effect: The target is Locked-On. The next Move that the User uses against the Target that requires an Accuracy Check cannot miss. Lock-On's effect, on both the User and Target, can be affected by Baton Pass.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Lovely Kiss
+Type: Normal
+Frequency: Battle
+AC: 2
+Range: Melee
+Target: 1 Target
+Effect: The target falls Asleep.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Lucky Chant
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: 4
+Target: No Target, Burst
+Effect: Lucky Chant creates a 4-meter Burst. All allies in the Burst, including the user, take damage from Critical Hits as if they are not Critical Hits for 1d4+1 turns.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Me First
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: 1 Target, Interrupt
+Effect: If the target declares a Move that has a Damage Dice Roll and Me First's user has a higher Speed stat then the target, you may Interrupt with Me First. Me First will use the same Move the target was about to use on that target.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Quick Set
+
+&&
+
+Move: Mean Look
+Type: Normal
+Frequency: Battle
+AC: None
+Range: 6
+Target: 1 Target
+Effect: The target may not flee or be switched until it is knocked out, for the remainder of the encounter.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Unsettling
+
+&&
+
+Move: Mega Kick
+Type: Normal
+Frequency: Center
+AC: 6
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Push
+Effect: The target is Pushed 6-meters. The target takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Mega Punch
+Type: Normal
+Frequency: EOT
+AC: 4
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: 
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Metronome
+Type: Normal
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target
+Effect: Metronome randomly uses any other Move except for After You, Assist, Bestow, Copycat, Counter, Covet, Destiny Bond, Detect, Endure, Feint, Focus Punch, Follow Me, Helping Hand, Metronome, Me First, Mimic, Mirror Coat, Mirror Move, Protect, Quash Quick Guard, Rage Powder, Sketch, Sleep Talk, Snatch, Snore, Switcheroo, Thief, Transform, Trick, Wide Guard. The GM helps to pick the random Move.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Scrambler
+
+&&
+
+Move: Milk Drink
+Type: Normal
+Frequency: Center
+AC: None
+Range: Melee
+Target: 1 Target
+Effect: The target regains HP equal to half of its full HP. The user may target themselves with Milk Drink.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Reflective Appeal
+
+&&
+
+Move: Mimic
+Type: Normal
+Frequency: Battle
+AC: None
+Range: 15
+Target: 1 Target
+Effect: Choose a Move that the target has used during the encounter. For the remainder of the encounter, that Move replaces Mimic on the user's Move List. Mimic cannot miss.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Attention Grabber
+
+&&
+
+Move: Mind Reader
+Type: Normal
+Frequency: Center
+AC: None
+Range: 10
+Target: 1 Target
+Effect: The target is Locked-On. The next Move that the User uses against the Target that requires an Accuracy Check cannot miss. Mind Reader's effect, on both the User and Target, can be affected by Baton Pass.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Minimize
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target
+Effect: Foes need an additional +4 during Accuracy Check to hit Minimize's user and the user's size is lowered one level for the remainder of the encounter (Gigantic to Huge, to Large, to Medium to Small).
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+Special: Grants Shrinkable
+
+&&
+
+Move: Moonlight
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target
+Effect: The user regains HP equal to half of its full HP. If it is Sunny, the user gains 2/3 of its full HP. If it is Rainy, Sand Storming or Hailing the user gains 1/4 of their full HP.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Reflective Appeal
+
+&&
+
+Move: Morning Sun
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target
+Effect: The user regains HP equal to half of its full HP. If it is Sunny, the user gains 2/3 of its full HP. If it is Rainy, Sand Storming or Hailing the user gains 1/4 of their full HP.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Reflective Appeal
+
+&&
+
+Move: Natural Gift
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: See Effect
+Class: Special
+Range: 10
+Target: 1 Target, Berry
+Effect: Refer to the Move Keywords Berry list. Natural Gift deals damage according to the Berry list and Natural Gift's Type is also defined there. The user's Berry is destroyed and is not consumed.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Ender
+Special: Grants Sprouter
+
+&&
+
+Move: Nature Power
+Type: Normal
+Frequency: EOT
+AC: See Effect
+Damage: See Effect
+Target: Environ
+Effect: Nature Power uses a Move defined by Environ.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Scrambler
+Special: Grants Sprouter
+
+&&
+
+Move: Odor Sleuth
+Type: Normal
+Frequency: At-Will
+AC: None
+Target: 1 Target
+Effect: The user's Normal-Type and Fighting-Type Moves can now hit and affect Ghost-Type targets. Odor Sleuth's user is unaffected by the effects of Moves which make them have to roll higher during Accuracy Checks to hit. Targets may not use their Speed stat to modify Accuracy Checks. Odor Sleuth's user can identify the real target using Double Team.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Good Show!
+Special: Grants Tracker
+
+&&
+
+Move: Pain Split
+Type: Normal
+Frequency: Battle
+AC: None
+Range: 4
+Target: 1 Target
+Effect: Add the user's and the target's current HP together and divide the value by 2, calling the result X. The user and target's HP are set to X. If X exceeds a target's or user's full HP, the excess is ignored and they are set to full HP.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Unsettling
+
+&&
+
+Move: Pay Day
+Type: Normal
+Frequency: Center
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: 8
+Target: 1 Target
+Effect: Pay Day scatters metal coins equal in value to 1d8 times the user's level. If it is a trainer battle, the winner of the battle gets to pick up the coins.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Catching Up
+
+&&
+
+Move: Perish Song
+Type: Normal
+Frequency: Center
+AC: None
+Range: 15
+Target: No Target, Burst
+Effect: Perish Song creates a 15-meter Burst. Perish Song cannot miss. Perish Song can affect only pokemon. All targets, including the user, receive a Perish Count of 3. At the beginning of each of the target's turns, their Perish count is lowered by 1. Once a Perish Count reaches 0, set the pokemon's HP to 0. A Perish Count disspears if a Pokemon returns to their Poke Ball or is knocked out.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Unsettling
+
+&&
+
+Move: Pound
+Type: Normal
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: 
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Present
+Type: Normal
+Frequency: EOT
+AC: 3
+Damage: See Effect
+Class: Physical
+Range: 8
+Target: 1 Target
+Effect: Roll 1d4. On a result of 1, use 1d10+10 for Present's Damage Dice Roll; on a result of 2, use 2d10+10; on a result of 3, use 3d10+10; on a result of 4 the target is healed 65 HP.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Protect
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target, Intercept
+Effect: If the user is hit by a Move, instead you are not hit by the Move. You do not take any damage nor are you affected by any of the Move's effects.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Psych Up
+Type: Normal
+Frequency: Battle
+AC: None
+Range: 10
+Target: 1 Target
+Effect: The user's Combat Stages are changed to match the target's Combat Stages. Psych Up cannot miss.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Quick Attack
+Type: Normal
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Interrupt
+Effect: If a foe wants to declare a Move, you may instead use Quick Attack on their turn before they can use their Move.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Quick Set
+
+&&
+
+Move: Rage
+Type: Normal
+Frequency: At-Will
+AC: 2
+Damage: 1d6+3
+Class: Physical
+Range: Melee
+Target: 1 Target, Spirit Surge
+Effect: The user's Attack is raised 1 Combat Stage as long as they used Rage on their previous turn. If the user is damaged by an attack before it's next turn, its Attack is raised 1 Combat Stage.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Rapid Spin
+Type: Normal
+Frequency: At-Will
+AC: 2
+Damage: 1d6+3
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: On hit, Rapid Spin destroys Hazards within 5 meters, removes Leech Seeds, and removes the user's Trapped status.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Razor Wind
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 3d10+12
+Class: Special
+Range: 15
+Target: 1 Target
+Effect: Once you declare the use of Razor Wind, the user's turn ends. On its next turn, the user may shift and use Razor Wind's damage. Razor Wind is a Critical Hit on 18-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 1d4
+Contest_Effect: Special Attention
+
+&&
+
+Move: Recover
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target
+Effect: The user regains HP equal to half of its full HP.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Reflective Appeal
+
+&&
+
+Move: Recycle
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target
+Effect: The effect of a consumable item used earlier in the encounter is used again as if it had not been destroyed. The item is still gone.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Attention Grabber
+
+&&
+
+Move: Reflect Type
+Type: Normal
+Frequency: Battle
+AC: 2
+Range: 10
+Target: 1 Target
+Effect: Reflect Type changes one of the user's Types into one Type of your choice that the target has for 1d4+1 turns.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Attention Grabber
+
+&&
+
+Move: Refresh
+Type: Normal
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target
+Effect: The user is cured of all Status ailments.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Reflective Appeal
+
+&&
+
+Move: Relic Song
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 3d12+12
+Class: Special
+Range: 4
+Target: No Target, Burst
+Effect: Relic Song creates a 4-meter Burst. All Legal Targets fall Asleep on 16-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Retaliate
+Type: Normal
+Frequency: Center
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Retaliate deals an additional 5d12 during Damage Dice Roll if an ally has been lowered to 0 HP or less by the target's Moves or Features during the last 2 rounds of combat.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Return
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: 4d12+16
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: The user may only use Return if its Loyalty is 3 or 4.
+Contest_Type: Cute
+Appeal: 1d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Roar
+Type: Normal
+Frequency: Battle
+AC: 11
+Range: 6
+Target: 1 Target
+Effect: The target flees away from the user 15 meters, ignoring Speed Capabilities, if terrain allows. The target may not use Moves for 4 rounds. During a trainer battle, the target's owner must recall the fleeing target and replace them.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Rock Climb
+Type: Normal
+Frequency: EOT
+AC: 5
+Damage: 3d12+14
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: Rock Climb Confuses the target on 17-20 during Accuracy Checks.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Round
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: 2d10+8
+Class: Special
+Range: 3
+Target: No Target, Burst
+Effect: Round creates a 3-meter Burst. The next Pokemon who uses Round during this round of Combat uses 20+2d10 for Round's Damage Dice Roll. The third or any use after the third use of Round during this round of Combat uses 30+3d10 for Round's Damage Dice Roll.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Safeguard
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: 2
+Target: No Target, Wall
+Effect: Place 10-meters of Wall that can be passed through and attacked through. If the effect of a Move that targets through any Walls of Safeguard cause a Status Affliction, they cannot cause a Status Affliction. The Walls sustain for 5 rounds.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Scary Face
+Type: Normal
+Frequency: EOT
+AC: 2
+Range: 6
+Target: 1 Target
+Effect: The target's Speed is lowered 2 Combat Stages.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Slow Set
+
+&&
+
+Move: Scratch
+Type: Normal
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: 
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Screech
+Type: Normal
+Frequency: EOT
+AC: 4
+Range: 4
+Target: No Target, Burst
+Effect: Screech creates a 4-meter Burst. All Legal Targets have their Defense lowered 2 Combat Stages.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Unsettling
+
+&&
+
+Move: Secret Power
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Special
+Range: 8
+Target: 1 Target, Environ
+Effect: Secret Power's effect depends on Environ. Secret Power's effect activates on 17-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Scrambler
+Special: Grants Sprouter
+
+&&
+
+Move: Selfdestruct
+Type: Normal
+Frequency: Center
+AC: 2
+Damage: 10d10+46
+Class: Physical
+Range: 4
+Target: No Target, Burst
+Effect: Selfdestruct creates a 4-meter Burst. The user's HP is set to -50% of their full HP. If the user is above Loyalty 1, their Loyalty is lowered at least 1 stage.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Big Show
+
+&&
+
+Move: Sharpen
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: Self
+Target: 1 Target
+Effect: Raise the user's Attack 1 Combat Stage.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Shell Smash
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Attack 2 Combat Stages, raise the user's Special Attack 2 Combat Stages and raise the user's Speed 2 Combat Stages Lower the user's Defense 1 Combat Stage and lower the user's Special Defense 1 Combat Stage.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Simple Beam
+Type: Normal
+Frequency: Battle
+AC: 2
+Range: 7
+Target: 1 Target
+Effect: Simple Beam changes one of the target's abilities to Simple for the remainder of the encounter.
+Contest_Type: Beauty
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Sing
+Type: Normal
+Frequency: Battle
+AC: 11
+Range: 4
+Target: No Target, Burst
+Effect: Sing creates a 4-meter Burst. All Legal Targets fall Asleep.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Sketch
+Type: Normal
+Frequency: Center
+AC: None
+Range: 25
+Target: 1 Target
+Effect: Sketch cannot miss. Once Sketch has been used, remove Sketch from the user's Move list. The last Move that the target used is added to the user's Move list permanently. Sketch may not be Interrupted or Intercepted.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Catching Up
+
+&&
+
+Move: Skull Bash
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 4d12+16
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Push, Set Up
+Effect: Once you declare the use of Skull Bash, the user's turn ends. On its next turn, the user may shift and use Skull Bash's damage and effect. The target is Pushed 4-meters. The target takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6.
+Contest_Type: Tough
+Appeal: 1d4
+Contest_Effect: Special Attention
+
+&&
+
+Move: Slack Off
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target
+Effect: The user regains HP equal to half of its full HP.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Reflective Appeal
+
+&&
+
+Move: Slam
+Type: Normal
+Frequency: EOT
+AC: 6
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: 
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Slash
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: Slash is a Critical Hit on 18-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Sleep Talk
+Type: Normal
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target
+Effect: The user randomly uses one of their other Moves, ignoring Frequencies. Sleep Talk can only be used while the user is Asleep.
+Contest_Type: Cute
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: SmellingSalt
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If the target is Paralyzed, Wake-Up Slap does an additional 5d10 for Damage Dice Roll and cures the target of Paralysis.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Unsettling
+
+&&
+
+Move: Smokescreen
+Type: Normal
+Frequency: EOT
+AC: None
+Range: 3
+Target: No Target, Wall
+Effect: Place 5-meters of Wall that can be passed through and attacked through. Smokescreen's Walls must be placed within 3-meters of the user. If anyone's Move tries to target through a Smokescreen wall, they must roll +3 during Accuracy Check to hit. The walls remain for 10 rounds. Brick Break cannot break Smokescreen's Walls.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Unsettling
+
+&&
+
+Move: Snore
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: 1d12+6
+Class: Special
+Range: 5
+Target: No Target, Burst
+Effect: Snore creates a 5-meter Burst. Snore Flinches all legal targets on 15-20 during Accuracy Check. Snore can only be used by a Sleeping pokemon.
+Contest_Type: Cute
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Softboiled
+Type: Normal
+Frequency: Center
+AC: None
+Range: Melee
+Target: 1 Target
+Effect: The target regains HP equal to half of its full HP. The user may target themselves with Softboiled.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Reflective Appeal
+
+&&
+
+Move: Sonicboom
+Type: Normal
+Frequency: EOT
+AC: 6
+Damage: 15
+Range: 4
+Target: 1 Target, Column
+Effect: Sonicboom creates a Column 1 meter wide. Sonicboom always deals 15 points of Damage. Do not apply weakness or resistance. Do not apply stats.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Spike Cannon
+Type: Normal
+Frequency: EOT
+AC: 4
+Damage: 1d6+3
+Class: Physical
+Range: 6
+Target: 1 Target, Scatter
+Effect: Spike Cannon can hit up to 5 times. Once the user misses, they cannot attempt to make another Spike Cannon attack on that turn. When adding stats only add 1/2 Attack.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Spit Up
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: See Effect
+Class: Special
+Range: 8
+Target: 1 Target
+Effect: If the user is Stockpiled 1, use 3d10+12 for Spit Up's Damage Dice Roll; if the user is Stockpiled 2, use 4d12+16; if the user is Stockpiled 3, use 5d12+18. After using Spit Up, the user's Stockpiled count is set to 0. If the user has no Stockpiled count, Spit Up does nothing.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Splash
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: Self
+Target: No Target
+Effect: 
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Stockpile
+Type: Normal
+Frequency: At-Will
+AC: None
+Range: Self
+Target: No Target
+Effect: The user adds 1 to their Stockpiled count to a maximum of 3. For each number a Stockpiled count is above 0, raise the user's Defense 1 Combat Stage and raise the user's Special Defense 1 Combat Stage. If a Stockpiled count is set to 0, the Combat Stages gained from the Stockpiled count are removed.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Get Ready!
+Special: Grants Inflatable
+
+&&
+
+Move: Stomp
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: Stomp Flinches the target on 15-20 during Accuracy Check. If the target is Small, Stomp deals an additional 1d10.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Strength
+Type: Normal
+Frequency: EOT
+AC: 4
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target, Push
+Effect: The target is Pushed 8-meters.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+Special: Grants +1 Power
+
+&&
+
+Move: Substitute
+Type: Normal
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target, Coat
+Effect: The user loses 1/4 of their full HP. A Coat is made which has HP equal to the HP lost when using this Move +1. If the user would be hit by a Move, instead the Coat gets hit. Apply weakness, resistance and stats to the Coat. The Coat is immune to Status Afflictions. Substitute cannot be used if the user has less then 1/4 of their full HP.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Catching Up
+
+&&
+
+Move: Super Fang
+Type: Normal
+Frequency: Battle
+AC: 4
+Range: Melee
+Target: 1 Target
+Effect: The target's HP is halved. Do not apply weakness or resistance to the HP lost. Do not apply stats to the HP lost. When halving the target's HP with Super Fang, round up.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Supersonic
+Type: Normal
+Frequency: EOT
+AC: 11
+Range: 6
+Target: 1 Target, Column
+Effect: Supersonic creates a Column 1 meter wide. Supersonic Confuses all Legal Targets.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Swagger
+Type: Normal
+Frequency: EOT
+AC: 4
+Range: 8
+Target: 1 Target
+Effect: The target's Attack is raised 2 Combat Stages. Swagger Confuses the target.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Swallow
+Type: Normal
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target
+Effect: If the user is Stockpiled 1, they are healed 25% of their full HP; if the user is Stockpiled 2, they are healed half of their full HP; if the user is Stockpiled 3, they are healed back to full HP. After using Swallow, the user's Stockpiled count is set to 0. If the user has no Stockpiled count, Swallow does nothing.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Reflective Appeal
+
+&&
+
+Move: Sweet Kiss
+Type: Normal
+Frequency: Battle
+AC: 6
+Range: 8
+Target: 1 Target
+Effect: Sweet Kiss Confuses the target.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Sweet Scent
+Type: Normal
+Frequency: Battle
+AC: 2
+Range: 5
+Target: No Target, Burst
+Effect: Sweet Scent creates a 5-meter Burst. For the remainder of the encounter, when targeting any Legal Targets that were hit by Sweet Scent, you need -2 to hit that target during Accuracy Check.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Excitement
+Special: Grants Alluring
+
+&&
+
+Move: Swift
+Type: Normal
+Frequency: EOT
+AC: None
+Damage: 2d10+8
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: Swift cannot Miss.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Swords Dance
+Type: Normal
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: The user's Attack is raised 2 Combat Stages.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Tackle
+Type: Normal
+Frequency: At-Will
+AC: 3
+Damage: 2d8+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: 
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Tail Slap
+Type: Normal
+Frequency: EOT
+AC: 4
+Damage: 1d10+4
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Tail Slap can hit up to 5 times. Once the user misses, they cannot attempt to make another Tail Slap attack on that turn.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Tail Whip
+Type: Normal
+Frequency: At-Will
+AC: 2
+Range: 4
+Target: 1 Target
+Effect: The target's Defense is lowered 1 Combat Stage.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Take Down
+Type: Normal
+Frequency: EOT
+AC: 5
+Damage: 3d12+14
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Recoil 1/4
+Effect: After Take Down deals damage, Recoil.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Techno Blast
+Type: Normal
+Frequency: Center
+AC: 2
+Damage: 3d12+18
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: Techno Blast's Type can be any Type while holding the appropriate Drive item or Plate item.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Teeter Dance
+Type: Normal
+Frequency: Battle
+AC: 2
+Range: 7
+Target: No target, Burst
+Effect: Teeter Dance creates a 7-meter Burst. Teeter Dance Confuses all Legal Targets.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Scrambler
+
+&&
+
+Move: Thrash
+Type: Normal
+Frequency: Center
+AC: 3
+Damage: 5d12+18
+Class: Physical
+Range: Melee
+Target: 1 target
+Effect: Thrash's user must make another Melee attack for 1d2 more turns. The attack is identical to Thrash except for Thrash's effect. After the first target is declared, Thrash targets the nearest Legal Target for its second or third round of use if the original target is unconscious. If potential targets are an equal distance from the user, you may choose the target. After Thrash's additional use(s) end(s), the user becomes Confused. For Pokemon users, the additional 1d2 are their Trainer's Command Actions, unless the Trainer is unconscious, in which case the Pokemon acts on its own until finished.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Tickle
+Type: Normal
+Frequency: EOT
+AC: 2
+Range: Melee
+Target: 1 Target
+Effect: Lower the target's Attack 1 Combat Stage and lower the target's Defense 1 Combat Stage.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Transform
+Type: Normal
+Frequency: Battle
+AC: None
+Range: 25
+Target: No Target
+Effect: The user assumes the form of the Pokemon-target and learns all of that specific target's Moves, gains its Abilitys, copies its weight and height and Capabilties for the remainder of the encounter, or until the user chooses to revert to its original form, or until the user uses Transform to change into something else. The user's Stats do not change. Transform cannot miss.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Catching Up
+
+&&
+
+Move: Tri Attack
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 3d10+12
+Class: Special
+Range: 8
+Target: 1 target
+Effect: Tri Attack gives the target a Status ailment on 17-20 during Accuracy Check. If you rolled 17-20, roll 1d4; on 2 the target is Paralyzed; on 3 the target is Burned; on 4 the target is Frozen; on 1 reroll the die.
+Contest_Type: Beauty
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Trump Card
+Type: Normal
+Frequency: EOT
+AC: 2
+Damage: See Effect
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: If the user has only used Trump Card once this encounter, use 1d10+4 for Trump Card's Damage Dice Roll. If it is the second time the user is using Trump Card, use 1d10+4. If it is the third time the user is using Trump Card, use 1d12+6. If it is the fourth time the user is using Trump Card, use 2d10+8. If it is the fifth time the user is using Trump Card, use 7d10+28 and Trump Card's Frequency changes to Center for the rest of the encounter.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Round Starter
+
+&&
+
+Move: Uproar
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 3d12+14
+Class: Special
+Range: 5
+Target: No Target, Burst
+Effect: Uproar creates a 5-meter Burst that continues for 1d4+1 turns. At the beginning of the user's turn where Uproar is continuing, they may shift then must immediately use Uproar again. Anyone in Uproar's Burst on any turn Uproar is continuing is cured of Sleep.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Unsettling
+
+&&
+
+Move: Vicegrip
+Type: Normal
+Frequency: At-Will
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: 
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Weather Ball
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 2d8+6
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: If it is Sunny, Weather Ball is Fire-Type. If it is Rainy, Weather Ball is Water-Type. If it is Hailing, Weather Ball is Ice-Type. If it is Sandstorming, Weather Ball is Rock-Type. When a weather effect is on the field, Weather Ball's Damage Dice Roll is 4d12+16. If there are multiple Weather Effects on the field, choose one type for Weather Ball to be that corresponds with an existing Weather Effect.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Whirlwind
+Type: Normal
+Frequency: Center
+AC: 2
+Range: 6
+Target: 1 Target, Push
+Effect: The target is Pushed 40-meters expelling them from the encounter if the terrain allows. They may still rejoin the encounter if they want to. During a trainer battle, the target's owner must recall the Pushed target and replace them.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Big Show
+
+&&
+
+Move: Wish
+Type: Normal
+Frequency: Center
+AC: None
+Range: 15
+Target: 1 Target
+Effect: At the end of the target's next turn, the target regains HP equal to half of its full HP. If the user targets themselves and are replaced in battle, the replacement is healed.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Reflective Appeal
+
+&&
+
+Move: Work Up
+Type: Normal
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Attack 1 Combat Stage and raise the user's Special Attack 1 Combat Stage.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Wrap
+Type: Normal
+Frequency: EOT
+AC: 4
+Damage: 1d6+3
+Class: Physical
+Range: Melee
+Target: 1 Target, Trap
+Effect: Wrap Traps the target and the user for 1d4+1 turns. At the beginning of the target's turn, if the target is Trapped, roll 1d12 and the target loses that much HP. Do not apply weakness or resistance to the HP lost. Do not apply stats to the HP lost. Wrap may not trap more then one target at a time unless the user is Huge or Gigantic.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Wring Out
+Type: Normal
+Frequency: Battle
+AC: 2
+Damage: 5d12+18
+Class: Special
+Range: Melee
+Target: 1 Target
+Effect: For every 10% the target is below their full HP, Wring Out's Damage Dice Roll is reduced by 1d12 to a minimum of 20.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Yawn
+Type: Normal
+Frequency: Battle
+AC: None
+Range: 4
+Target: No Target, Burst
+Effect: Yawn creates a 4-meter Burst. All targets fall Asleep at the end of their next turn. Yawn cannot miss.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Acid
+Type: Poison
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Special
+Range: 6
+Target: 1 Target
+Effect: Acid lowers the target's Defense 1 Combat Stage on 18-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Acid Armor
+Type: Poison
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Defense 2 Combat Stages.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Acid Spray
+Type: Poison
+Frequency: EOT
+AC: 2
+Damage: 1d12+6
+Class: Special
+Range: 3
+Target: 1 Target, Column
+Effect: Acid Spray creates a Column 1 meter wide. Acid Spray lowers all Legal Targets' Special Defense 2 Combat Stages.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Unsettling
+
+&&
+
+Move: Clear Smog
+Type: Poison
+Frequency: Battle
+AC: None
+Damage: 2d8+6
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: The target's Combat Stages are reset to 0.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Coil
+Type: Poison
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Attack 1 Combat Stage and raise the user's Defense 1 Combat Stage. For the remainder of Combat, the user needs -1 on Accuracy Checks to hit.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Cross Poison
+Type: Poison
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: Cross Poison is a Critical Hit on 18-20 during Accuracy Check. Cross Poison Poisons the target on a Critical Hit during Accuracy Check.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Gastro Acid
+Type: Poison
+Frequency: Battle
+AC: 2
+Range: 8
+Target: 1 Target
+Effect: The target's ability is disabled until the end of the encounter. If the target has more then one ability, Gastro Acid disables one of them.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Gunk Shot
+Type: Poison
+Frequency: Center
+AC: 7
+Damage: 5d12+18
+Class: Special
+Range: 8
+Target: Target Area, Blast
+Effect: Gunk Shot creates a 3-meter Blast. Gunk Shot Poisons all Legal Targets on 11-20 during Accuracy Check. On Miss, Gunk Shot deals the user's Special Attack to potential targets but cannot Poison.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Poison Fang
+Type: Poison
+Frequency: EOT
+AC: 2
+Damage: 2d8+6
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Poison Fang Badly Poisons the target on 17-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Poison Gas
+Type: Poison
+Frequency: EOT
+AC: 6
+Range: 4
+Target: No Target, Burst
+Effect: Poison Gas makes a 4-meter Burst. Poison Gas Poisons all Legal Targets.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Poison Jab
+Type: Poison
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Poison Jab Poisons the target on 15-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Poison Sting
+Type: Poison
+Frequency: At-Will
+AC: 2
+Damage: 1d6+3
+Class: Physical
+Range: 6
+Target: 1 Target
+Effect: Poison Sting Poisons the target on 17-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Poison Tail
+Type: Poison
+Frequency: At-Will
+AC: 2
+Damage: 2d8+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: Poison Tail is a Critical Hit on 18-20 during Accuracy Check. Poison Tail Poisons the target on 19-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Poisonpowder
+Type: Poison
+Frequency: EOT
+AC: 6
+Range: 4
+Target: 1 Target, Blast
+Effect: Poisonpowder creates a 1-meter Blast. Poisonpowder Poisons all Legal Targets.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Sludge
+Type: Poison
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Special
+Range: 8
+Target: 1 Target, Column
+Effect: Sludge creates a Column 2-meters wide. Sludge poisons all Legal Targets on 15-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Sludge Bomb
+Type: Poison
+Frequency: Battle
+AC: 2
+Damage: 3d12+14
+Class: Special
+Range: 8
+Target: 1 Target, Blast
+Effect: Sludge Bomb creates a 3-meter Blast. Sludge Bomb poisons all Legal Targets on 15-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Sludge Wave
+Type: Poison
+Frequency: Battle
+AC: 2
+Damage: 4d12+16
+Class: Special
+Range: 4
+Target: 1 Target
+Effect: Sludge Wave makes a Column 4-meters wide. Slime Wave Poisons all legal targets on 19-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Smog
+Type: Poison
+Frequency: EOT
+AC: 5
+Damage: 1d6+3
+Class: Special
+Range: 3
+Target: 1 Target, Blast
+Effect: Smog creates a 3-meter Blast. Smog Poisons all Legal Targets on 13-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Toxic
+Type: Poison
+Frequency: Battle
+AC: 4
+Class: None
+Range: 4
+Target: 1 Target
+Effect: The target is Badly Poisoned.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Toxic Spikes
+Type: Poison
+Frequency: EOT
+AC: None
+Class: None
+Range: Field
+Target: Target Area, Hazard
+Effect: Set 10 square meters of Toxic Spikes, all 10 meters must be adjacent with at least one other space of Toxic Spikes next to each other. Toxic Spikes Poisons a foe when moving onto or over the occupied spaces with an Overland Capability. If there are 2 Layers of Toxic Spikes on the same space, it Deadly Poisons the foes instead.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Venoshock
+Type: Poison
+Frequency: Battle
+AC: 2
+Damage: 3d8+10
+Class: Special
+Range: 4
+Target: 1 Target
+Effect: If the target is Poisoned, Venoshock deals 3d8+10 instead during Damage Dice Roll.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Agility
+Type: Psychic
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Speed 2 Combat Stages.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Quick Set
+
+&&
+
+Move: Ally Switch
+Type: Psychic
+Frequency: Battle
+AC: None
+Range: Self
+Target: 1 Target, Intercept
+Effect: Choose one willing ally, shift the user's position to the ally's position and shift the ally's position to the user's position, trading places. If the ally was a target of a Move, the user is now the target. If the user was a target of a Move, the ally is now the target.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Scrambler
+
+&&
+
+Move: Amnesia
+Type: Psychic
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Special Defense 2 Combat Stages.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Barrier
+Type: Psychic
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Defense 2 Combat Stages.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Calm Mind
+Type: Psychic
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Special Attack 1 Combat Stage and raise the user's Special Defense 1 Combat Stage.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Confusion
+Type: Psychic
+Frequency: At-Will
+AC: 2
+Damage: 2d8+6
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: Confusion Confuses the target on 19-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Cosmic Power
+Type: Psychic
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Defense 1 Combat Stage and raise the user's Special Defense 1 Combat Stage.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Dream Eater
+Type: Psychic
+Frequency: EOT
+AC: 2
+Damage: 4d12+16
+Class: Special
+Range: Melee
+Target: 1 Target
+Effect: Dream Eater can only target someone Asleep. After the target takes damage, the user gains HP equal to half of the damage they dealt to the target.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Good Show!
+Special: Grants Dream Smoke
+
+&&
+
+Move: Extrasensory
+Type: Psychic
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Special
+Range: 5
+Target: 1 Target
+Effect: Extrasensory Flinches the target on 19-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Future Sight
+Type: Psychic
+Frequency: Center
+AC: 2
+Damage: 4d12+16
+Class: Special
+Range: 10
+Target: 1 Target, Column
+Effect: Future Sight does nothing on the turn it is used. At the end of the second turn after Future Sight's use, use Future Sight's damage and effect. Future Sight creates a Column 1 meter wide, which starts from anywhere on the field. Future Sight is Typeless.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Gravity
+Type: Psychic
+Frequency: Battle
+AC: None
+Class: None
+Range: Field
+Target: Target Area, Weather
+Effect: For 1d4+1 rounds, the area is considered Warped. While Warped, Moves that involve the user being airborne may not be used. Flying-Types and Pokemon with the Ability Levitate are no longer immune to Ground-Type Moves. All Accuracy Checks are lowered by -2. Warped does not replace other Weather effects.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Guard Split
+Type: Psychic
+Frequency: Battle
+AC: None
+Range: Melee
+Target: 1 Target
+Effect: Choose between Defense and Special Defense. The target reveals the value of whichever stat you chose, and then adds it to the user's stat of the same choice. Divide the total by two and call the result X. For the remainder of the encounter, the target and the user's stat that you chose is X.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Guard Swap
+Type: Psychic
+Frequency: Battle
+AC: None
+Range: Melee
+Target: 1 Target
+Effect: The user trades the stat value of their Defense and Special Defense, for the target's Defense and Special Defense for the rest of the encounter. Combat Stages are not traded. Guard Swap cannot miss.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Heal Block
+Type: Psychic
+Frequency: EOT
+AC: 2
+Range: 10
+Target: 1 Target
+Effect: For 1d4+1 turns, the target may not gain HP by itself or be healed.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Healing Wish
+Type: Psychic
+Frequency: Center
+AC: None
+Range: 10
+Target: 1 Target, Intercept
+Effect: If the user's HP is lowered to 0 or less, you may use Healing Wish as an Intercept. The target is treated as if it had been healed at a Pokemon Center. Healing Wish may target a pokemon in a Poke Ball as long as they immediately join the encounter or are sent out. If the target knows Healing Wish, the user's Healing Wish does not restore its Center Frequency.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Heal Pulse
+Type: Psychic
+Frequency: Center
+AC: None
+Target: No Target, Burst
+Effect: Heal Pulse creates a 2-meter Burst. Restores 50% of all Legal Targets max HP. Heal Pulse does not target the user.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Reflective Appeal
+Special: Grants Aura
+
+&&
+
+Move: Heart Stamp
+Type: Psychic
+Frequency: EOT
+AC: 2
+Damage: 2d10+8
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: Heart Stamp Flinches the target on 15-20 during Accuracy Check.
+Contest_Type: Cute
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Heart Swap
+Type: Psychic
+Frequency: Center
+AC: None
+Range: 25
+Target: 2 Targets
+Effect: The targets trade their Combat Stages, both positive and negative.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Hypnosis
+Type: Psychic
+Frequency: Battle
+AC: 6
+Range: 4
+Target: 1 Target
+Effect: The target falls Asleep.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Imprison
+Type: Psychic
+Frequency: Battle
+AC: None
+Range: 10
+Target: 1 Target
+Effect: The target is Locked. A Locked target may not use any Moves the user knows. Each user may only make 1 target Locked at a time. Using Imprison on a new target transfers Locked to the new target. Imprison cannot miss.
+Contest_Type: Smart
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Kinesis
+Type: Psychic
+Frequency: EOT
+AC: None
+Range: 3
+Target: No Target, Wall
+Effect: Place 5-meters of Wall that can be passed through and attacked through. If anyone's Move tries to target through a Kinesis Wall, they must roll +3 during Accuracy Check to hit. The walls remain for 10 rounds. Brick Break cannot break Kinesis' Walls.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Light Screen
+Type: Psychic
+Frequency: EOT
+AC: None
+Range: Melee
+Target: No Target, Wall
+Effect: The user may shift while placing Light Screen Walls if their Speed allows for the extra movement. Place 5-meters of Wall that cannot be passed through but may be attacked through. If a Move tries to attack through Light Screen Walls, treat the target as if their Special Defense is raised 2 Combat Stages. This bonus cannot be awarded more then once. The walls sustain for 1d4+1 turns.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Lunar Dance
+Type: Psychic
+Frequency: Center
+AC: None
+Range: 25
+Target: 1 Target
+Effect: Set the user's HP to 0. The target is treated as if it had been healed at a Pokemon Center. Lunar Dance may target a pokemon in a poke ball as long as they immediately join the encounter or are sent out.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Luster Purge
+Type: Psychic
+Frequency: Center
+AC: 2
+Damage: 3d8+10
+Class: Special
+Range: 15
+Target: 1 Target, Column, Blast
+Effect: Luster Purge creates a Column 1 meter wide, Luster Purge creates a 5-meter Blast. Luster Purge lowers all Legal Targets Special Defense 1 Combat Stage on 11-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Magic Coat
+Type: Psychic
+Frequency: Center
+AC: None
+Range: 4
+Target: 1 Target, Intercept
+Effect: If the user is about to get a hit by a Move that does not have a Damage Dice Roll, they may use Magic Coat as an Intercept. The Intercepted Move's user is treated as if they were the target of their own Move.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Magic Room
+Type: Psychic
+Frequency: Center
+AC: None
+Class: None
+Range: Field
+Target: Target Area, Weather
+Effect: For 1d4+1 rounds, the area is considered Useless. While Useless, Pokemon may not use the effects of any Held items or activate any Held items. Useless does not replace other Weather effects.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Scrambler
+
+&&
+
+Move: Meditate
+Type: Psychic
+Frequency: At-Will
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Attack 1 Combat Stage.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Miracle Eye
+Type: Psychic
+Frequency: At-Will
+AC: None
+Range: Self
+Target: No Target
+Effect: The user's Psychic-Type Moves can now hit and affect Dark-Type targets. Miracle Eye's user is unaffected by the effects of Moves which make them have to roll higher during Accuracy Checks to hit. Targets may not use their Speed stat to modify Accuracy Checks. Miracle Eye's user can identify the real target using Double Team.
+Contest_Type: Cute
+Appeal: 1d4
+Contest_Effect: Good Show!
+
+&&
+
+Move: Mirror Coat
+Type: Psychic
+Frequency: Battle
+AC: None
+Range: 20
+Target: 1 Target, Intercept
+Effect: If the user is being hit by a Move that consults Special Attack for damage, you may use Mirror Coat. If the user survives the hit, the target is dealt damage equal to twice the amount of damage the user received. Do not apply weakness, resistance or immunity. Do not apply stats.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Mist Ball
+Type: Psychic
+Frequency: Center
+AC: 2
+Damage: 3d8+10
+Class: Special
+Range: 10
+Target: 1 Target, Column, Blast
+Effect: Mist Ball creates a Column 1 meter wide and creates a 5-meter Blast. Mist Ball lowers all Legal Targets Special Attack 1 Combat Stage on 6-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Power Split
+Type: Psychic
+Frequency: Battle
+AC: None
+Range: Melee
+Target: 1 Target
+Effect: Choose between Attack and Special Attack. The target reveals the value of whichever stat you chose, and then adds it to the user's stat of the same choice. Divide the total by two and call the result X. For the remainder of the encounter, the target and the user's stat that you chose is X.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Inverse Appeal
+
+&&
+
+Move: Power Swap
+Type: Psychic
+Frequency: Battle
+AC: None
+Range: Melee
+Target: 1 Target
+Effect: The user trades the stat value of their Attack and Special Attack, for the target's Attack and Special Attack for the rest of the encounter. Combat Stages are not traded. Power Swap cannot miss.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Inverse Appeal
+
+&&
+
+Move: Power Trick
+Type: Psychic
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target
+Effect: The user's Attack stat and Defense stat are switched for 1+1d8 rounds.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Psybeam
+Type: Psychic
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Special
+Range: 7
+Target: 1 Target, Column
+Effect: Psybeam creates a Column 1 meter wide. Psybeam Confuses all Legal Targets on 19-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Psychic
+Type: Psychic
+Frequency: Battle
+AC: 2
+Damage: 3d12+14
+Class: Special
+Range: 10
+Target: 1 Target, Push
+Effect: The target is Pushed 5-meters in any direction. Psychic lowers the target's Special Defense 1 Combat Stage on 17-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Telekinetic
+
+&&
+
+Move: Psycho Boost
+Type: Psychic
+Frequency: Center
+AC: 4
+Damage: 6d12+22
+Class: Special
+Range: 10
+Target: Target Area, Blast
+Effect: Psycho Boost creates a 4-meter Blast. Lower the user's Special Attack 2 Combat Stages after damage.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Psycho Cut
+Type: Psychic
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Physical
+Range: 6
+Target: 1 Target
+Effect: Psycho Cut is a Critical Hit on 18-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Psycho Shift
+Type: Psychic
+Frequency: Center
+AC: None
+Range: Melee
+Target: 1 Target
+Effect: The user is cured of a Status ailment and the target is given that Status ailment. Psycho Shift cannot miss. Psycho Shift can only be used if the user has a Status ailment and the target does not have the status ailment that is being transferred.
+Contest_Type: Cool
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Psyshock
+Type: Psychic
+Frequency: EOT
+AC: 2
+Damage: 2d10+12
+Class: Special
+Range: 4
+Target: 1 Target
+Effect: When calculating damage, the target must use their Defense against Psyshock.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Psystrike
+Type: Psychic
+Frequency: Center
+AC: 2
+Damage: 4d12+16
+Class: Special
+Range: 4
+Target: 1 Target
+Effect: When calculating damage, the target must use their Defense against Psystrike.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Psywave
+Type: Psychic
+Frequency: Battle
+AC: 5
+Range: 4
+Target: 1 Target, Column
+Effect: Psywave creates a Column 2-meters wide. Roll 1d4; on 1 and 2 all Legal Targets lose HP equal to half the user's level; on 3, all Legal Targets lose HP equal to the user's level; on 4 all Legal Targets lose HP equal to 1.5x the user's level. Do not apply weakness, resistance or immunity. Do not apply stats.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Reflect
+Type: Psychic
+Frequency: EOT
+AC: None
+Range: Melee
+Target: No Target, Wall
+Effect: The user may shift while placing Reflect Walls if their Speed allows for the extra movement. Place 5-meters of Wall that cannot be passed through but may be attacked through. If a Move tries to attack through Reflect Walls, treat the target as if their Defense is raised 2 Combat Stages. This bonus cannot be awarded more then once. The walls remain for 1d4+1 turns.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Excitement
+
+&&
+
+Move: Rest
+Type: Psychic
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target
+Effect: The user's HP is set to their full HP. The user is cured of any Status ailments. Then, the user falls Asleep. The user cannot make Sleep Checks at the beginning of their turn. They are cured of the Sleep at the end of their turn, in 2 rounds.
+Contest_Type: Cute
+Appeal: None
+Contest_Effect: Reflective Appeal
+
+&&
+
+Move: Role Play
+Type: Psychic
+Frequency: Battle
+AC: None
+Range: 10
+Target: 1 Target
+Effect: Add on of the target's Ability to the user's Abilities for 1+1d8 rounds. Role Play cannot miss.
+Contest_Type: Cute
+Appeal: 1d4
+Contest_Effect: Catching Up
+
+&&
+
+Move: Skill Swap
+Type: Psychic
+Frequency: Battle
+AC: None
+Range: Melee
+Target: 1 Target
+Effect: The user loses their Abilities and gains the target's Abilities for the remainder of encounter. The target loses their Abilities and gains the user's Abilities for the remainder of the encounter.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Excitement
+
+&&
+
+Move: Stored Power
+Type: Psychic
+Frequency: Battle
+AC: 2
+Damage: 1d6+3
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: For every Combat Stage the user is above 0, in each stat, add 1d10 to Stored Power's Damage Dice Roll.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Synchronoise
+Type: Psychic
+Frequency: Battle
+AC: 2
+Damage: 3d8+12
+Class: Special
+Range: 6
+Target: No Target, Burst
+Effect: Synchronoise creates a 6-meter Burst. Synchronoise can only hit legal targets that share a type with Synchronoise's user.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Telekinesis
+Type: Psychic
+Frequency: Battle
+AC: None
+Range: 10
+Target: 1 Target
+Effect: For 1d4+1 turns, the target is immune to Ground-type Moves and whenever the target is targeted by a Move, the Move's user needs -5 to hit. Telekinesis' effect cannot stack, if a target is already under the effect of Telekinesis, the newest successful instance of Telekinesis replaces the old one.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+Special: Grants Telekinetic
+
+&&
+
+Move: Teleport
+Type: Psychic
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target, Intercept
+Effect: Teleport can be used as an Intercept at any time. If used as an Intercept, roll 1d20 and if you don't roll 7 or higher, Teleport fails to activate. The user can shift 1d10+10 meters. They can move through blocking terrain and hindering terrain as if it is regular terrain. Moves that targeted Teleport's user continues through the desired target's space if the Move allows for it. If Teleport fails when used as an Intercept, treat it as if you did not use it for purposes of Frequency.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Quick Set
+
+&&
+
+Move: Trick
+Type: Psychic
+Frequency: Battle
+AC: 2
+Range: 5
+Target: 2 Targets
+Effect: Both targets must be hit for Trick to succeed. If Trick targets the user, you do not need to roll an Accuracy Check for the user. Both targets lose their Held Item, and gain the other target's Held Item. If a target has no Held Item, the still can gain the other target's Held Item.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Attention Grabber
+
+&&
+
+Move: Trick Room
+Type: Psychic
+Frequency: Center
+AC: None
+Class: None
+Range: Field
+Target: Target Area, Weather
+Effect: For 1d4+1 rounds, the area is considered Rewinding. While Rewinding, the order in which combatants go during a round of Combat isn't ordered from highest Speed to lowest Speed; instead it is order from lowest Speed to Highest Speed. Rewinding does not replace other Weather effects.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Scrambler
+
+&&
+
+Move: Wonder Room
+Type: Psychic
+Frequency: Center
+AC: None
+Class: None
+Range: Field
+Target: Target Area, Weather
+Effect: For 1d4+1 rounds, the area is considered Wondered. While Wondered, each individual Pokemon's Defense and Special Defense are switched. Wondered does not replace other Weather effects.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Scrambler
+
+&&
+
+Move: Zen Headbutt
+Type: Psychic
+Frequency: EOT
+AC: 4
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: Zen Headbutt Flinches the target on 15-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Ancientpower
+Type: Rock
+Frequency: Battle
+AC: 2
+Damage: 2d10+8
+Class: Special
+Range: 8
+Target: 1 Target, Column, Spirit Surge
+Effect: Ancientpower creates a Column that is 2-meters wide. If you rolled 11-20 during Accuracy Check for Ancientpower, the user has each of its stats raised 1 Combat Stage. If you rolled 16-20 on the Accuracy Roll, all allies in the Column also have each of their stats raised 1 Combat Stage and are not damaged by Ancientpower.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Head Smash
+Type: Rock
+Frequency: Battle
+AC: 5
+Damage: 7d10+28
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Push, Recoil 1/2
+Effect: The target is pushed back 5-meters. The target takes an additional 1d6 if it is Pushed into Blocking Terrain. If the target is pushed into another Legal Target, instead, both take 1d6. After Head Smash deals damage, Recoil.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Power Gem
+Type: Rock
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Special
+Range: 8
+Target: 1 Target
+Effect: 
+Contest_Type: Beauty
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Rock Blast
+Type: Rock
+Frequency: EOT
+AC: 5
+Damage: 1d10+4
+Class: Physical
+Range: 6
+Target: 1 Target, Scatter, Trap
+Effect: Rock Blast can hit up to 5 times. Once the user misses, they cannot attempt to make another Rock Blast attack on that turn.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+Special: Grants Materializer
+
+&&
+
+Move: Rock Polish
+Type: Rock
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Speed 2 Combat Stages.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Rock Slide
+Type: Rock
+Frequency: Battle
+AC: 4
+Damage: 3d10+12
+Class: Physical
+Range: 4
+Target: 1 Target, Column
+Effect: Rock Slide creates a Column 4-meters wide. Rock Slide Flinches all Legal Targets on 17-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Rock Throw
+Type: Rock
+Frequency: EOT
+AC: 4
+Damage: 2d8+6
+Class: Physical
+Range: 8
+Target: 1 Target
+Effect: 
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Rock Tomb
+Type: Rock
+Frequency: Battle
+AC: 5
+Damage: 2d8+6
+Class: Physical
+Range: 6
+Target: 1 Target, Blast
+Effect: Rock Tomb creates a 3-meter Blast. Rock Tomb lowers all Legal Targets Speed 1 Combat Stage.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Slow Set
+Special: Grants Materializer
+
+&&
+
+Move: Rock Wrecker
+Type: Rock
+Frequency: Center
+AC: 4
+Damage: 7d10+28
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass, Exhaust
+Effect: On Miss, Rock Wrecker deals the user's Attack instead to all possible targets.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+Special: Grants Materializer
+
+&&
+
+Move: Rollout
+Type: Rock
+Frequency: EOT
+AC: 4
+Damage: 1d10+4
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: The user must use Rollout until it misses, or fails to be able to shift enough to hit a target for their next 4 turns. On the second turn, Rollout uses 2d10+8 for its Damage Dice Roll. On the third turn, Rollout uses 2d10+12. On the fourth turn, Rollout uses 3d10+16. On the fifth and final turn, Rollout uses 4d10+10.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Sandstorm
+Type: Rock
+Frequency: Battle
+AC: None
+Class: None
+Range: Field
+Target: Target Area, Weather
+Effect: For 1d4+1 rounds, the area is considered Sandstorming. At the beginning of each round, all non-Ground, Rock, or Steel Type Pokemon lose 1/16th of their full HP. Rock Type Pokemon are treated as if their Special Defense is raised 2 Combat Stages while Sandstorming.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Smack Down
+Type: Rock
+Frequency: Battle
+AC: 2
+Damage: 2d8+6
+Class: Physical
+Range: 8
+Target: 1 Target
+Effect: If the target is Flying-type or is floating because of Magnet Rise, Telekenisis, or Levitate, then the target is no longer immune to Ground-type Moves for 1d4+1 turns.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Stealth Rock
+Type: Rock
+Frequency: Battle
+AC: None
+Class: None
+Range: Field
+Target: No Target, Hazard
+Effect: Set 5 square meters of Stealth Rock, "Rocks." All 5 Rocks must be adjacent with at least one other space of Rocks next to each other. If a foe moves within 10 meters of a space occupied by Rocks, move at most one Rock to the offender, then destory the Rock. When that happens, Stealth Rock causes a foe to lose 1/8th of their full HP. Stealth Rock is considered to be dealing damage. Apply Weakness and Resistance. Do not apply stats. A Pokemon who has been hit by a Stealth Rock Hazard cannot get hit by another in the same encounter until it is returned to a Poke Ball and then sent back out.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+Special: Grants Materializer
+
+&&
+
+Move: Stone Edge
+Type: Rock
+Frequency: Battle
+AC: 5
+Damage: 4d12+16
+Class: Physical
+Range: 8
+Target: 1 Target, Dash
+Effect: Stone Edge is a Critical Hit on 17-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Wide Guard
+Type: Rock
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target, Intercept
+Effect: If a foe uses Move that hits multiple targets and Wide Guard's user is one of the targets you may use Wide Guard as an Interrupt. If a Move would hit the user and one of the user's allies, the Move only hits Wide Guard's user. If the user is hit by a Move this way, the user does not take any damage and is not affected by any other effects the Move has. This Effect lasts for one turn.
+Contest_Type: Tough
+Appeal: None
+Contest_Effect: Inversed Appeal
+
+&&
+
+Move: Autotomize
+Type: Steel
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target
+Effect: For the remainder of the Encounter, the user's Wieght Class is one value lower, to a minimum of 1. Raise the user's Speed 2 Combat Stages.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Bullet Punch
+Type: Steel
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Interrupt
+Effect: If a foe wants to declare a Move, you may instead use Bullet Punch on their turn before they can use their Move.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Quick Set
+
+&&
+
+Move: Doom Desire
+Type: Steel
+Frequency: Center
+AC: 2
+Damage: 6d12+22
+Class: Special
+Range: 15
+Target: 1 Target, Column
+Effect: Doom Desire does nothing on the turn it is used. At the end of the second turn after Doom Desire's use, use Doom Desire's damage and effect. Doom Desire creates a Column 1 meter wide, which starts from anywhere on the field. Doom Desire is Typeless.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Interrupting Appeal
+
+&&
+
+Move: Flash Cannon
+Type: Steel
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: Flash Cannon lowers the target's Special Defense 1 Combat Stage on 17-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Gear Grind
+Type: Steel
+Frequency: EOT
+AC: 3
+Damage: 2d8+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Scatter
+Effect: Gear Grind can hit up to 2 times. If Gear Grind misses its first target, you may still use it a second time.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Reliable
+
+&&
+
+Move: Gyro Ball
+Type: Steel
+Frequency: Center
+AC: None
+Damage: 1d12+6
+Class: Physical
+Range: 6
+Target: 1 Target
+Effect: For every 10 Speed the target is above the user, add 1d12 to the Damage dice Roll. Gyro Ball cannot miss.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Heavy Slam
+Type: Steel
+Frequency: Battle
+AC: 2
+Damage: See Effect
+Class: Physical
+Range: Melee
+Target: 1 Target
+Effect: If the user is in the same Weight Class as the target, use 1d10 for Damage Dice Roll; if the user is one Weight Class higher than the target, use 1d10+10; if the user is two Weight Classes higher than the target, use 2d12+12; if three classes, 3d10+14; if four classes, 5d10+16.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Iron Defense
+Type: Steel
+Frequency: EOT
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Defense 2 Combat Stages.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Iron Head
+Type: Steel
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash
+Effect: Iron Head Flinches the target on 15-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Iron Tail
+Type: Steel
+Frequency: EOT
+AC: 6
+Damage: 4d12+16
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: Iron Tail lowers the target's Defense 1 Combat Stage on 19-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Magnet Bomb
+Type: Steel
+Frequency: EOT
+AC: None
+Damage: 2d10+8
+Class: Physical
+Range: 8
+Target: 1 target
+Effect: Magnet Bomb cannot miss.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+Special: Grants Magnetic
+
+&&
+
+Move: Metal Burst
+Type: Steel
+Frequency: Battle
+AC: 2
+Damage: See Effect
+Class: Physical
+Range: 3
+Target: No Target, Burst
+Effect: Metal Burst may only be used if the user didn't move first in the round and the user has taken damage from a Move this round. The Target is dealt damage equal to 1.5x the amount of damage the user received during the last Move that hit it. Do not apply weakness, resistance or immunity. Do not apply stats.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Final Appeal
+
+&&
+
+Move: Metal Claw
+Type: Steel
+Frequency: At-Will
+AC: 3
+Damage: 2d8+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass, Spirit Surge
+Effect: Raise the user's Attack 1 Combat Stage on 18-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Metal Sound
+Type: Steel
+Frequency: EOT
+AC: 4
+Range: 4
+Target: No Target, Burst
+Effect: Metal Sound creates a 4-meter Burst. All Legal Targets have their Special Defense lowered 2 Combat Stages.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Unsettling
+
+&&
+
+Move: Meteor Mash
+Type: Steel
+Frequency: Battle
+AC: 4
+Damage: 4d12+16
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Spirit Surge
+Effect: Raise the user's Attack 1 Combat Stage on 15-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Mirror Shot
+Type: Steel
+Frequency: EOT
+AC: 5
+Damage: 3d8+10
+Class: Special
+Range: 7
+Target: 1 Target, Column
+Effect: Mirror Shot creates a Column 1 meter wide. All Legal Targets must roll +2 during Accuracy Checks to hit on 16-20 during Accuracy Check.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Shift Gear
+Type: Steel
+Frequency: Battle
+AC: None
+Range: Self
+Target: No Target
+Effect: Raise the user's Attack 1 Combat Stage and raise the user's Speed 2 Combat Stages.
+Contest_Type: Smart
+Appeal: None
+Contest_Effect: Get Ready!
+
+&&
+
+Move: Steel Wing
+Type: Steel
+Frequency: At-Will
+AC: 3
+Damage: 3d8+10
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass, Spirit Surge
+Effect: Raise the user's Defense 1 Combat Stage on 15-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Aqua Jet
+Type: Water
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Interrupt
+Effect: If a foe wants to declare a Move, you may instead use Aqua Jet on their turn before they can use their Move.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Quick Set
+
+&&
+
+Move: Aqua Ring
+Type: Water
+Frequency: Center
+AC: None
+Range: Self
+Target: No Target, Coat
+Effect: Aqua Ring covers the user in a Coat that heals the user at the beginning of each of their turns. The user is healed 1/16th of their full HP each turn.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Aqua Tail
+Type: Water
+Frequency: Battle
+AC: 4
+Damage: 3d12+14
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: 
+Contest_Type: Cute
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Brine
+Type: Water
+Frequency: Battle
+AC: 2
+Damage: 3d8+10
+Class: Special
+Range: 6
+Target: 1 Target
+Effect: If the target is below 50% HP, Brine deals 5d12+22 during Damage Dice Roll.
+Contest_Type: Smart
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Bubble
+Type: Water
+Frequency: At-Will
+AC: 2
+Damage: 1d6+3
+Class: Special
+Range: 8
+Target: 1 Target
+Effect: Bubble lowers the target's Speed on 16-20 during Accuracy Check.
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Slow Set
+
+&&
+
+Move: Bubblebeam
+Type: Water
+Frequency: EOT
+AC: 2
+Damage: 3d8+10
+Class: Special
+Range: 8
+Target: 1 Target, Column
+Effect: Bubblebeam creates a Column 1 meter wide. Bubblebeam lowers the target's Speed on 18-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Slow Set
+
+&&
+
+Move: Clamp
+Type: Water
+Frequency: EOT
+AC: 4
+Damage: 1d12+6
+Class: Physical
+Range: Melee
+Target: 1 Target, Trap
+Effect: Clamp Traps the target and the user for 1d4+1 turns. At the beginning of the target's turn, if the target is Trapped, roll 1d12 and the target loses that much HP. Do not apply weakness or resistance to the HP lost. Do not apply stats to the HP lost. Clamp may not trap more then one target at a time unless the user is Huge or Gigantic.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Crabhammer
+Type: Water
+Frequency: Battle
+AC: 3
+Damage: 3d12+14
+Class: Physical
+Range: Melee
+Target: 1 Target, Push
+Effect: Crabhammer Pushes the target 2-meters. Crabhammer is a Critical Hit on 18-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Starter
+
+&&
+
+Move: Dive
+Type: Water
+Frequency: Battle
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target, Dash, Set Up
+Effect: Once you declare the use of Dive, the user is moved underwater and their turn ends. On the next turn, Dive's user may shift then use Dive's damage. While underwater, Dive's user may not be the target of Moves. There must be a body of water around the battlefield to use Dive.
+Contest_Type: Beauty
+Appeal: 1d4
+Contest_Effect: Special Attention
+Special: Eliminates Sinker
+
+&&
+
+Move: Hydro Cannon
+Type: Water
+Frequency: Center
+AC: 4
+Damage: 7d10+28
+Class: Special
+Range: 15
+Target: Target Area, Blast, Exhaust
+Effect: Hydro Cannon creates a 3-meter Blast. On Miss, Hydro Cannon deals the user's Special Attack instead to all possible targets.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Hydro Pump
+Type: Water
+Frequency: Battle
+AC: 4
+Damage: 5d12+18
+Class: Special
+Range: 9
+Target: 1 Target, Column
+Effect: Hydro Pump creates a Column 1 meter wide.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Fountain
+
+&&
+
+Move: Muddy Water
+Type: Water
+Frequency: Battle
+AC: 5
+Damage: 4d12+16
+Class: Special
+Range: 4
+Target: 1 Target, Column
+Effect: Muddy Water makes a Column 4-meters wide. All Legal Targets must roll +2 during Accuracy Checks to hit on 16-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Round Ender
+
+&&
+
+Move: Octazooka
+Type: Water
+Frequency: Battle
+AC: 4
+Damage: 3d8+10
+Class: Special
+Range: 8
+Target: 1 Target
+Effect: All Legal Targets must roll +1 during Accuracy Checks to hit on 11-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Incentives
+
+&&
+
+Move: Rain Dance
+Type: Water
+Frequency: Battle
+AC: None
+Class: None
+Range: Field
+Target: Target Area, Weather
+Effect: For 1d4+1 rounds, the area is considered Rainy. While Rainy, Water-Type attacks deal 1.5x damage. Fire-Type attacks deal 1/2 the damage they normally would.
+Contest_Type: Tough
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+
+&&
+
+Move: Razor Shell
+Type: Water
+Frequency: EOT
+AC: 3
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target, Pass
+Effect: Razor Shell lowers the Target's Defense 1 Combat Stage on 11-20 during Accuracy Check.
+Contest_Type: Cool
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Scald
+Type: Water
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Special
+Range: 5
+Target: 1 Target
+Effect: Scald Burns the target on 15-20 during Accuracy Check.
+Contest_Type: Smart
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Soak
+Type: Water
+Frequency: Battle
+AC: 2
+Range: 5
+Target: 1 Target
+Effect: For 1d4+1 turns, the target's Elemental Type(s), become(s) Water Type.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Surf
+Type: Water
+Frequency: Battle
+AC: 2
+Damage: 4d12+16
+Class: Special
+Range: 4
+Target: 1 Target, Column
+Effect: Surf makes a Column 4-meters wide.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Eliminates Sinker
+
+&&
+
+Move: Water Gun
+Type: Water
+Frequency: At-Will
+AC: 2
+Damage: 1d12+6
+Class: Special
+Range: 10
+Target: 1 Target
+Effect: 
+Contest_Type: Cute
+Appeal: 3d4
+Contest_Effect: No Effect
+Special: Grants Fountain
+
+&&
+
+Move: Water Pledge
+Type: Water
+Frequency: EOT
+AC: 2
+Damage: 2d8+6
+Class: Special
+Range: 6
+Target: 1 Target, Pledge
+Effect: If used on the same turn as Fire Pledge, all secondary effects of Moves are activated at a -3 during the Accuracy Check for 1d4+1 turns. If used on the same turn as Grass Pledge, all foes are treated as if at -2 Speed Combat Stages for 1d4+1 turns, if any foe has additional Speed Combat Stages, apply them as usual.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
+
+Move: Water Pulse
+Type: Water
+Frequency: EOT
+AC: 2
+Damage: 2d8+8
+Class: Special
+Range: 3
+Target: No Target, Burst
+Effect: Water Pulse creates a 3-meter Burst. Water Pulse Confuses all Legal Targets on 17-20 during Accuracy Check.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Round Starter
+Special: Grants Fountain
+
+&&
+
+Move: Water Sport
+Type: Water
+Frequency: EOT
+AC: None
+Range: 4
+Target: 1 Target, Coat
+Effect: Water Sport makes a Coat that resists
+Contest_Type: Cute
+Appeal: 2d4
+Contest_Effect: Hold That Thought
+Special: Grants Fountain
+
+&&
+
+Move: Water Spout
+Type: Water
+Frequency: Center
+AC: 4
+Damage: 7d10+28
+Class: Special
+Range: 10
+Target: No Target, Burst
+Effect: Water Spout creates a 10-meter Burst. Water Spout may not be performed unless the user has at least 90% of its HP.
+Contest_Type: Beauty
+Appeal: 2d4
+Contest_Effect: Seen Nothing Yet
+
+&&
+
+Move: Waterfall
+Type: Water
+Frequency: EOT
+AC: 2
+Damage: 3d10+12
+Class: Physical
+Range: Melee
+Target: 1 Target, Push
+Effect: The target is Pushed 2-meters. If the target is airborne, Waterfall deals an additional 1d12 during Damage Dice Roll. Waterfall Flinches the target on 17-20 during Accuracy Check.
+Contest_Type: Tough
+Appeal: 3d4
+Contest_Effect: No Effect
+
+&&
+
+Move: Whirlpool
+Type: Water
+Frequency: EOT
+AC: 4
+Damage: 1d12+6
+Class: Special
+Range: 5
+Target: 1 Target, Trap
+Effect: Whirlpool Traps the target for 1d4+1 turns. At the beginning of the target's turn, if the target is Trapped, roll 1d12 and the target loses that much HP. Do not apply weakness or resistance to the HP lost. Do not apply stats to the HP lost. Whirlpool may not trap more then one target at a time.
+Contest_Type: Beauty
+Appeal: None
+Contest_Effect: Torrential Appeal
+
+&&
